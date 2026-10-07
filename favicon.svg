@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GG monogram">
+  <rect width="64" height="64" rx="12" fill="#0b1f3a"/>
+  <rect x="3.5" y="3.5" width="57" height="57" rx="9" fill="none" stroke="#c9a24a" stroke-width="2"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" fill="#c9a24a" letter-spacing="-1">GG</text>
+</svg>
