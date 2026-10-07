@@ -7,7 +7,7 @@
     hours: "Office hours: Monday to Saturday, 10:00 AM \u2013 6:00 PM. Sunday closed.",
     offices:
       "<strong>Office 1 (Home Office):</strong> Corner Kothi No. 223, Phase 2, Sector 54, Mohali, Punjab 160055. Entry from the Glass Gate, back side of the home. <a href=\"https://maps.app.goo.gl/iwze8nw3NSimg39KA\" target=\"_blank\" rel=\"noopener\">Directions</a>\n" +
-      "<strong>Office 2 &amp; Correspondence Address:</strong> Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160036.\n" +
+      "<strong>Office 2 &amp; Correspondence Address:</strong> Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043.\n" +
       "<strong>Office 3:</strong> Room No. 1, New Bar Complex, Punjab &amp; Haryana High Court, Chandigarh.",
     contact: "Mobile: <a href=\"tel:+919872206969\">+91 98722 06969</a> \u00b7 WhatsApp: <a href=\"https://wa.me/919872206969\" target=\"_blank\" rel=\"noopener\">wa.me/919872206969</a> \u00b7 Email: <a href=\"mailto:masterlegalwork@gmail.com\">masterlegalwork@gmail.com</a>",
     payment: "Payment details (Google Pay UPI QR, UPI ID and bank accounts in the name of Gagandeep Goel) are on our <a href=\"/payments.html\">Payments page</a>. After paying, please share the receipt on WhatsApp at +91 98722 06969.",
@@ -71,7 +71,7 @@
       var v = val.toLowerCase();
       if (v.indexOf("high") > -1) bot("Our High Court office: Room No. 1, New Bar Complex, Punjab &amp; Haryana High Court, Chandigarh.");
       else if (v.indexOf("mohali") > -1) bot("Our Home Office is in Mohali: Corner Kothi No. 223, Phase 2, Sector 54, Mohali, Punjab 160055 (entry from the Glass Gate, back side of the home). <a href=\"https://maps.app.goo.gl/iwze8nw3NSimg39KA\" target=\"_blank\" rel=\"noopener\">Directions</a>");
-      else if (v.indexOf("chandigarh") > -1) bot("Our chamber: Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160036.");
+      else if (v.indexOf("chandigarh") > -1) bot("Our chamber: Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043.");
       else bot("Our offices:\n" + FACT.offices);
     }
     if (key === "hearing") bot(FACT.hours);
