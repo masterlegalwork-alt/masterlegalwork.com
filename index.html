@@ -31,11 +31,10 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/img/gagandeep-goel-advocate-robes.webp" type="image/webp">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp" imagesrcset="/assets/img/gagandeep-goel-advocate-robes-600.webp 600w, /assets/img/gagandeep-goel-advocate-robes.webp 936w" imagesizes="(min-width: 900px) 420px, min(420px, 86vw)" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/css/styles.css">
 
   <script type="application/ld+json">
   {
@@ -45,12 +44,11 @@
     "name": "Master Legal Work",
     "legalName": "Master Legal Work",
     "alternateName": "Master Legal Work (Advocate Gagandeep Goel)",
-    "slogan": "Advocates & Legal Consultants",
     "url": "https://masterlegalwork.com/",
     "logo": "https://masterlegalwork.com/favicon.svg",
     "image": "https://masterlegalwork.com/assets/img/og-master-legal-work.jpg",
     "description": "Civil, criminal and family law practice in Chandigarh, Mohali and Panchkula.",
-    "telephone": "+91 98722 06969",
+    "telephone": "+91-98722-06969",
     "email": "masterlegalwork@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -60,11 +58,21 @@
       "postalCode": "160043",
       "addressCountry": "IN"
     },
-    "hasMap": "https://maps.app.goo.gl/iwze8nw3NSimg39KA",
-    "location": [
+    "openingHours": "Mo-Sa 10:00-18:00",
+    "openingHoursSpecification": [
       {
-        "@type": "Place",
-        "name": "Office 1 (Home Office)",
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      }
+    ],
+    "department": [
+      {
+        "@type": "LegalService",
+        "@id": "https://masterlegalwork.com/#office-1",
+        "name": "Master Legal Work, Office 1 (Home Office)",
+        "telephone": "+91-98722-06969",
         "hasMap": "https://maps.app.goo.gl/iwze8nw3NSimg39KA",
         "address": {
           "@type": "PostalAddress",
@@ -76,33 +84,17 @@
         }
       },
       {
-        "@type": "Place",
-        "name": "Office 2 & Correspondence Address",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Chamber No. 422, 4th Floor, Distt. & Sessions Court, Sector 43",
-          "addressLocality": "Chandigarh",
-          "postalCode": "160043",
-          "addressCountry": "IN"
-        }
-      },
-      {
-        "@type": "Place",
-        "name": "Office 3",
+        "@type": "LegalService",
+        "@id": "https://masterlegalwork.com/#office-3",
+        "name": "Master Legal Work, Office 3 (High Court)",
+        "telephone": "+91-98722-06969",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Room No. 1, New Bar Complex, Punjab & Haryana High Court",
           "addressLocality": "Chandigarh",
+          "addressRegion": "Chandigarh",
           "addressCountry": "IN"
         }
-      }
-    ],
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "10:00",
-        "closes": "18:00"
       }
     ],
     "areaServed": ["Chandigarh", "Mohali", "Panchkula"],
@@ -127,7 +119,7 @@
   <header class="site-header" id="top">
     <nav class="nav container" aria-label="Primary">
       <a class="brand" href="#home" aria-label="Master Legal Work, home">
-        <img src="favicon.svg" alt="" width="40" height="40">
+        <img src="/favicon.svg" alt="" width="40" height="40">
         <span class="brand-text"><span class="brand-name">Master Legal Work</span><span class="brand-sub">Advocates &amp; Legal Consultants</span></span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
@@ -165,10 +157,10 @@
         </div>
         <figure class="hero-photo">
           <picture>
-            <source type="image/webp" srcset="assets/img/gagandeep-goel-advocate-robes.webp">
+            <source type="image/webp" srcset="assets/img/gagandeep-goel-advocate-robes-600.webp 600w, assets/img/gagandeep-goel-advocate-robes.webp 936w" sizes="(min-width: 900px) 420px, min(420px, 86vw)">
             <img src="assets/img/gagandeep-goel-advocate-robes.jpg" width="936" height="1248"
                  alt="Portrait of Advocate Gagandeep Goel in an advocate's black coat and white bands"
-                 fetchpriority="high" decoding="async">
+                 fetchpriority="high">
           </picture>
         </figure>
       </div>
@@ -231,14 +223,14 @@
         <div class="team-photos">
           <figure class="team-photo team-photo-wide">
             <picture>
-              <source type="image/webp" srcset="assets/img/team-master-legal-work.webp">
+              <source type="image/webp" srcset="assets/img/team-master-legal-work-480.webp 480w, assets/img/team-master-legal-work.webp 882w" sizes="(min-width: 1240px) 850px, (min-width: 760px) 70vw, 100vw">
               <img src="assets/img/team-master-legal-work.jpg" width="882" height="345" loading="lazy" decoding="async"
                    alt="Gagandeep Goel with members of the Master Legal Work team">
             </picture>
           </figure>
           <figure class="team-photo">
             <picture>
-              <source type="image/webp" srcset="assets/img/staff-at-chamber-desk-2.webp">
+              <source type="image/webp" srcset="assets/img/staff-at-chamber-desk-2-600.webp 600w, assets/img/staff-at-chamber-desk-2.webp 797w" sizes="(min-width: 1240px) 330px, (min-width: 760px) 28vw, 100vw">
               <img src="assets/img/staff-at-chamber-desk-2.jpg" width="797" height="792" loading="lazy" decoding="async"
                    alt="A member of staff at work at the desk in the Master Legal Work chamber">
             </picture>
@@ -280,7 +272,7 @@
           <li>
             <button class="g-item" data-full="assets/img/chamber-interior-2.jpg" aria-label="Enlarge: chamber interior">
               <picture>
-                <source type="image/webp" srcset="assets/img/chamber-interior-2.webp">
+                <source type="image/webp" srcset="assets/img/chamber-interior-2-600.webp 600w, assets/img/chamber-interior-2.webp 1100w" sizes="(min-width: 1240px) 290px, (min-width: 900px) 24vw, 50vw">
                 <img src="assets/img/chamber-interior-2.jpg" width="1100" height="1403" loading="lazy" decoding="async"
                      alt="Interior of the Master Legal Work chamber with the conference desk and workstations">
               </picture>
@@ -290,7 +282,7 @@
           <li>
             <button class="g-item" data-full="assets/img/bar-association-event-2.jpg" aria-label="Enlarge: Bar Association event">
               <picture>
-                <source type="image/webp" srcset="assets/img/bar-association-event-2.webp">
+                <source type="image/webp" srcset="assets/img/bar-association-event-2-600.webp 600w, assets/img/bar-association-event-2.webp 868w" sizes="(min-width: 1240px) 290px, (min-width: 900px) 24vw, 50vw">
                 <img src="assets/img/bar-association-event-2.jpg" width="868" height="925" loading="lazy" decoding="async"
                      alt="Gagandeep Goel among advocates at an event at the Punjab and Haryana High Court Bar Association, Chandigarh">
               </picture>
@@ -300,7 +292,7 @@
           <li>
             <button class="g-item" data-full="assets/img/gagandeep-goel-advocate-portrait-studio.jpg" aria-label="Enlarge: portrait">
               <picture>
-                <source type="image/webp" srcset="assets/img/gagandeep-goel-advocate-portrait-studio.webp">
+                <source type="image/webp" srcset="assets/img/gagandeep-goel-advocate-portrait-studio-600.webp 600w, assets/img/gagandeep-goel-advocate-portrait-studio.webp 899w" sizes="(min-width: 1240px) 290px, (min-width: 900px) 24vw, 50vw">
                 <img src="assets/img/gagandeep-goel-advocate-portrait-studio.jpg" width="899" height="1199" loading="lazy" decoding="async"
                      alt="Portrait of Gagandeep Goel in a black coat, arms folded">
               </picture>
@@ -310,7 +302,7 @@
           <li>
             <button class="g-item" data-full="assets/img/chamber-422-door-2.jpg" aria-label="Enlarge: Chamber 422 entrance">
               <picture>
-                <source type="image/webp" srcset="assets/img/chamber-422-door-2.webp">
+                <source type="image/webp" srcset="assets/img/chamber-422-door-2-600.webp 600w, assets/img/chamber-422-door-2.webp 1100w" sizes="(min-width: 1240px) 290px, (min-width: 900px) 24vw, 50vw">
                 <img src="assets/img/chamber-422-door-2.jpg" width="1100" height="1261" loading="lazy" decoding="async"
                      alt="Entrance to Chamber No. 422 at District Courts, Chandigarh, with the Master Legal Work nameboard">
               </picture>
@@ -428,22 +420,22 @@
         </p>
       </div>
       <div>
-        <h4>Office 1 (Home Office)</h4>
+        <h3 class="f-h">Office 1 (Home Office)</h3>
         <address>Corner Kothi No. 223, Phase 2, Sector 54, Mohali, Punjab 160055<br><span class="f-note">Entry from the Glass Gate, back side of the home.</span></address>
-        <h4>Office 2 &amp; Correspondence Address</h4>
+        <h3 class="f-h">Office 2 &amp; Correspondence Address</h3>
         <address>Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043</address>
-        <h4>Office 3</h4>
+        <h3 class="f-h">Office 3</h3>
         <address>Room No. 1, New Bar Complex, Punjab &amp; Haryana High Court, Chandigarh</address>
       </div>
       <div>
-        <h4>Contact</h4>
+        <h3 class="f-h">Contact</h3>
         <p>Mobile: <a href="tel:+919872206969">+91 98722 06969</a><br>
            WhatsApp: <a href="https://wa.me/919872206969" target="_blank" rel="noopener">wa.me/919872206969</a><br>
-           <a href="mailto:masterlegalwork@gmail.com">masterlegalwork@gmail.com</a><br>
-           <a href="https://masterlegalwork.com/">masterlegalwork.com</a></p>
-        <h4>Hours</h4>
+           Email: <a href="mailto:masterlegalwork@gmail.com">masterlegalwork@gmail.com</a><br>
+           Website: <a href="https://masterlegalwork.com/">masterlegalwork.com</a></p>
+        <h3 class="f-h">Hours</h3>
         <p>Monday to Saturday, 10:00 AM &ndash; 6:00 PM<br>Sunday closed</p>
-        <h4>Quick links</h4>
+        <h3 class="f-h">Quick links</h3>
         <p><a href="payments.html">Payments</a><br><a href="drafts.html">Model Drafts</a></p>
       </div>
     </div>
@@ -485,7 +477,7 @@
     </div>
   </div>
 
-  <script src="assets/js/main.js" defer></script>
-  <script src="assets/js/chat.js" defer></script>
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/chat.js" defer></script>
 </body>
 </html>

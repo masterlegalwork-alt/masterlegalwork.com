@@ -27,11 +27,41 @@
       b.textContent = open ? "Hide format" : "View format";
     });
   });
+  /* Drafts: print one draft, or all open drafts (all drafts if none is open) */
+  var opened = [];
+  document.querySelectorAll(".print-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var d = document.getElementById(b.getAttribute("data-print"));
+      var body = d && d.querySelector(".draft-body");
+      if (!d || !body) return;
+      document.body.classList.add("print-one"); d.classList.add("print-target");
+      if (body.hidden) { body.hidden = false; opened.push(body); }
+      window.print();
+    });
+  });
+  window.addEventListener("beforeprint", function () {
+    if (document.body.classList.contains("print-one") || !document.querySelector(".draft-body")) return;
+    if (!document.querySelector(".draft:not([hidden]) .draft-body:not([hidden])")) {
+      document.querySelectorAll(".draft:not([hidden]) .draft-body[hidden]").forEach(function (x) { x.hidden = false; opened.push(x); });
+    }
+  });
+  window.addEventListener("afterprint", function () {
+    document.body.classList.remove("print-one");
+    document.querySelectorAll(".print-target").forEach(function (x) { x.classList.remove("print-target"); });
+    opened.forEach(function (x) { x.hidden = true; }); opened = [];
+  });
+
   /* Open a draft from #hash */
-  if (location.hash) {
-    var t = document.getElementById(location.hash.slice(1));
-    if (t && t.classList.contains("draft")) { var vb = t.querySelector(".view-btn"); if (vb) vb.click(); }
+  function openFromHash() {
+    var t = location.hash && document.getElementById(location.hash.slice(1));
+    if (t && t.classList.contains("draft")) {
+      var body = t.querySelector(".draft-body"), vb = t.querySelector(".view-btn");
+      if (body && body.hidden && vb) vb.click();
+      t.scrollIntoView();
+    }
   }
+  openFromHash();
+  window.addEventListener("hashchange", openFromHash);
 
   /* Drafts: search + filter */
   var q = document.getElementById("draft-search");
