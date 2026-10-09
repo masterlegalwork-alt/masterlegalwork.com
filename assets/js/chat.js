@@ -10,13 +10,13 @@
       "<strong>Office 2 &amp; Correspondence Address:</strong> Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043.\n" +
       "<strong>Office 3:</strong> Room No. 1, New Bar Complex, Punjab &amp; Haryana High Court, Chandigarh.",
     contact: "Mobile: <a href=\"tel:+919872206969\">+91 98722 06969</a> \u00b7 WhatsApp: <a href=\"https://wa.me/919872206969\" target=\"_blank\" rel=\"noopener\">wa.me/919872206969</a> \u00b7 Email: <a href=\"mailto:masterlegalwork@gmail.com\">masterlegalwork@gmail.com</a>",
-    payment: "Fees depend on the matter and are discussed personally by Advocate Gagandeep Goel. Please do not make any payment until the chambers has confirmed the fee and its purpose to you in writing (WhatsApp or email).",
+    payment: "Consultations are by appointment: \u20b95,500 for each 30 minutes, payable in advance (in person from 5 PM; by phone 4 to 9 PM). You can book on the <a href=\"/consultation/\">Book a consultation</a> page. For any other work, the fee and its purpose are confirmed to you in writing first.",
     drafts: "Free model formats (petitions and applications, for general reference only) are on our <a href=\"/drafts.html\">Model Drafts page</a>.",
-    fees: "Fees depend on the matter and are discussed personally by Advocate Gagandeep Goel. This assistant does not quote fees. Share your details and continue on WhatsApp.",
+    fees: "The consultation fee is \u20b95,500 for each 30 minutes, payable in advance. Book on the <a href=\"/consultation/\">Book a consultation</a> page. Fees for any other work are discussed personally and confirmed in writing.",
     noadvice: "I'm an automated assistant and can't give legal advice. Advocate Gagandeep Goel will respond personally on WhatsApp."
   };
   var FAQ = [
-    { re: /\b(fee|fees|charge|charges|cost|price|rate|kitni|kitna|paisa|kharcha)\b/i, a: "fees" },
+    { re: /\b(consult|consultation|appointment|book|booking|fee|fees|charge|charges|cost|price|rate|kitni|kitna|paisa|kharcha)\b/i, a: "fees" },
     { re: /\b(pay|payment|payments|upi|gpay|google pay|paytm|bank|account|ifsc|transfer|neft|imps|qr)\b/i, a: "payment" },
     { re: /\b(address|addresses|location|located|where|office|offices|directions|map|kahan|chamber)\b/i, a: "offices" },
     { re: /\b(timing|timings|hours|time|open|opening|close|closed|sunday|saturday)\b/i, a: "hours" },
@@ -89,7 +89,7 @@
     a.target = "_blank"; a.rel = "noopener";
     a.innerHTML = '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.32-2.9c-.25-.43.25-.4.72-1.33.08-.17.04-.31-.02-.43l-.76-1.82c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.77 2.77 0 0 0-.86 2.06 4.8 4.8 0 0 0 1 2.55 11 11 0 0 0 4.2 3.7c1.56.68 2.17.73 2.95.62.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>Continue on WhatsApp with Advocate Gagandeep Goel';
     log.appendChild(a);
-    bot("Advocate Gagandeep Goel will take it forward personally on WhatsApp. You can also call +91 98722 06969 or email masterlegalwork@gmail.com. Using this chat does not by itself create an advocate\u2013client relationship.");
+    bot("Advocate Gagandeep Goel will take it forward personally on WhatsApp. To book a paid consultation (\u20b95,500 per 30 minutes), use the <a href=\"/consultation/\">Book a consultation</a> page.");
     scroll();
   }
 
