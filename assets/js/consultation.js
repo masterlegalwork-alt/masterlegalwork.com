@@ -4,11 +4,11 @@
 (function () {
   "use strict";
   var CONFIG = {
-    feePer30: 5500,
+    feePer30: { "Normal": 5500, "Urgent": 11000 },
     appsScriptUrl: "",   // ONE-TIME STEP (optional upgrade): paste the deployed Apps Script web-app URL here
     bookingUrl: "",      // ONE-TIME STEP: Google Calendar appointment-schedule booking page (legalcarepro)
     cashfreeUrl: "",     // ONE-TIME STEP: Cashfree payment link/form once the account is active
-    hours: { "In person": [17 * 60, 21 * 60], "Phone": [16 * 60, 21 * 60] },
+    hours: { "In person": [17 * 60, 21 * 60], "Phone": [16 * 60, 21 * 60], "Urgent": [13 * 60 + 30, 21 * 60] },
     gap: 15, wa: "919872206969", upi: "9872206969-2@okbizaxis"
   };
   var f = document.getElementById("cs-form"); if (!f) return;
@@ -16,7 +16,8 @@
   var inr = function (n) { return "\u20b9" + n.toLocaleString("en-IN"); };
   var val = function (n) { var el = f.querySelector('[name="' + n + '"]:checked') || f.querySelector('[name="' + n + '"]'); return el ? (el.value || "").trim() : ""; };
   var mins = function () { var d = f.querySelector('[name="Duration"]:checked'); return d ? +d.getAttribute("data-min") : 0; };
-  var fee = function () { return mins() / 30 * CONFIG.feePer30; };
+  var prio = function () { return val("Priority") || "Normal"; };
+  var fee = function () { return mins() / 30 * CONFIG.feePer30[prio()]; };
   var hhmm = function (m) { var h = Math.floor(m / 60), mm = m % 60, ap = h >= 12 ? "PM" : "AM", h12 = ((h + 11) % 12) + 1; return h12 + ":" + (mm < 10 ? "0" : "") + mm + " " + ap; };
 
   // date: from tomorrow
@@ -28,7 +29,7 @@
     var type = val("Consultation type"), m = mins(), sel = $("cs-time"), cur = sel.value;
     sel.innerHTML = "";
     if (!type || !m) { sel.innerHTML = '<option value="">Choose type and duration first</option>'; return; }
-    var h = CONFIG.hours[type], o = document.createElement("option"); o.value = ""; o.textContent = "Choose a time"; sel.appendChild(o);
+    var h = CONFIG.hours[prio() === "Urgent" ? "Urgent" : type], o = document.createElement("option"); o.value = ""; o.textContent = "Choose a time"; sel.appendChild(o);
     for (var s = h[0]; s + m <= h[1]; s += 30 + CONFIG.gap) {
       var op = document.createElement("option"); op.value = hhmm(s) + " to " + hhmm(s + m); op.textContent = op.value; sel.appendChild(op);
     }
@@ -36,11 +37,14 @@
   }
   function update() {
     slots();
+    var r = CONFIG.feePer30[prio()];
+    Array.prototype.forEach.call(f.querySelectorAll(".cs-dfee"), function (el) { el.textContent = inr(+el.getAttribute("data-min") / 30 * r); });
+    $("cs-urgent-note").hidden = prio() !== "Urgent";
     var m = mins();
     if (m) {
-      $("cs-fee").innerHTML = "Fee for " + m + " minutes: <b>" + inr(fee()) + "</b>, payable in advance.";
+      $("cs-fee").innerHTML = (prio() === "Urgent" ? "Urgent fee" : "Fee") + " for " + m + " minutes: <b>" + inr(fee()) + "</b>, payable in advance. The consultation goes ahead only after payment.";
       $("cs-pay").hidden = false; $("cs-amt").textContent = inr(fee());
-      $("cs-upi").href = "upi://pay?pa=" + CONFIG.upi + "&pn=Gagandeep%20Goel&am=" + fee() + "&cu=INR&tn=" + encodeURIComponent("Consultation " + m + " min");
+      $("cs-upi").href = "upi://pay?pa=" + CONFIG.upi + "&pn=Gagandeep%20Goel&am=" + fee() + "&cu=INR&tn=" + encodeURIComponent((prio() === "Urgent" ? "Urgent consultation " : "Consultation ") + m + " min");
       $("cs-upi").textContent = "Pay " + inr(fee()) + " by UPI app";
       $("cs-fee-field").value = fee();
       if (CONFIG.cashfreeUrl) { var g = $("cs-gateway"); g.hidden = false; g.innerHTML = 'Or pay online by card / net banking: <a href="' + CONFIG.cashfreeUrl + '" target="_blank" rel="noopener">secure payment page</a>.'; }
@@ -48,7 +52,7 @@
     $("cs-wa").href = "https://wa.me/" + CONFIG.wa + "?text=" + encodeURIComponent(summary());
   }
   function summary() {
-    var keys = ["Consultation type", "Duration", "Preferred date", "Preferred start time", "Name", "Age", "Mobile", "email", "Court", "Case no / CNR", "Opposite party", "Stage", "Next date", "Advice sought", "Payment mode", "Payment reference (UTR)"];
+    var keys = ["Consultation type", "Priority", "Duration", "Preferred date", "Preferred start time", "Name", "Age", "Mobile", "email", "Court", "Case no / CNR", "Opposite party", "Stage", "Next date", "Advice sought", "Payment mode", "Payment reference (UTR)"];
     var lines = ["Consultation booking request (masterlegalwork.com)"];
     keys.forEach(function (k) { var v = val(k); if (v) lines.push((k === "email" ? "Email" : k) + ": " + v); });
     if (mins()) lines.push("Fee: " + inr(fee()));
@@ -68,8 +72,8 @@
     var file = $("cs-shot").files[0];
     if (file && (file.size > 2 * 1024 * 1024 || !/^image\//.test(file.type))) { ev.preventDefault(); return err("The payment screenshot must be an image of up to 2 MB.", $("cs-shot")); }
     var name = val("Name"), amount = inr(fee());
-    $("cs-subject").value = "Consultation booking: " + name + " | " + val("Consultation type") + " | " + val("Duration") + " | " + val("Preferred date") + " | " + amount + " (pending confirmation)";
-    $("cs-autoresponse").value = "Dear " + name + ",\n\nThank you. Master Legal Work has received your consultation request (" + val("Consultation type") + ", " + val("Duration") + ", requested " + val("Preferred date") + " " + val("Preferred start time") + ").\n\nFee: " + amount + ", payable in advance. Payment details: UPI " + CONFIG.upi + "; or Yes Bank current account 001563300002051, IFSC YESB0000015; or ICICI Bank savings account 093501-500588, IFSC ICIC0001896; account name Gagandeep Goel. Your payment reference: " + val("Payment reference (UTR)") + ".\n\nYour booking is pending until the payment is confirmed. The time will be confirmed to you on WhatsApp or email. The fee is non-refundable; the consultation can be rescheduled once with at least 24 hours' notice. A consultation does not by itself create an advocate-client relationship.\n\nMaster Legal Work, Advocate Gagandeep Goel\nTelephone / WhatsApp: +91 9872206969";
+    $("cs-subject").value = "Consultation booking: " + name + " | " + (prio() === "Urgent" ? "URGENT | " : "") + val("Consultation type") + " | " + val("Duration") + " | " + val("Preferred date") + " | " + amount + " (pending confirmation)";
+    $("cs-autoresponse").value = "Dear " + name + ",\n\nThank you. Master Legal Work has received your consultation request (" + (prio() === "Urgent" ? "URGENT, " : "") + val("Consultation type") + ", " + val("Duration") + ", requested " + val("Preferred date") + " " + val("Preferred start time") + ").\n\nFee: " + amount + ", payable in advance. Payment details: UPI " + CONFIG.upi + "; or Yes Bank current account 001563300002051, IFSC YESB0000015; or ICICI Bank savings account 093501-500588, IFSC ICIC0001896; account name Gagandeep Goel. Your payment reference: " + val("Payment reference (UTR)") + ".\n\nThe consultation goes ahead only after the payment is received; until then your booking is pending. The time will be confirmed to you on WhatsApp or email. The fee is non-refundable; the consultation can be rescheduled once with at least 24 hours' notice. A consultation does not by itself create an advocate-client relationship.\n\nMaster Legal Work, Advocate Gagandeep Goel\nTelephone / WhatsApp: +91 9872206969";
     var base = location.pathname.replace(/consultation\/.*$/, "");
     $("cs-next").value = location.origin + base + "consultation/thanks.html";
     try { sessionStorage.setItem("mlw_cs_summary", summary()); } catch (e) {}

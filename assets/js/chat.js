@@ -10,9 +10,9 @@
       "<strong>Office 2 &amp; Correspondence Address:</strong> Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043.\n" +
       "<strong>Office 3:</strong> Room No. 1, New Bar Complex, Punjab &amp; Haryana High Court, Chandigarh.",
     contact: "Mobile: <a href=\"tel:+919872206969\">+91 98722 06969</a> \u00b7 WhatsApp: <a href=\"https://wa.me/919872206969\" target=\"_blank\" rel=\"noopener\">wa.me/919872206969</a> \u00b7 Email: <a href=\"mailto:masterlegalwork@gmail.com\">masterlegalwork@gmail.com</a>",
-    payment: "Consultations are by appointment: \u20b95,500 for each 30 minutes, payable in advance (in person from 5 PM; by phone 4 to 9 PM). You can book on the <a href=\"/consultation/\">Book a consultation</a> page. For any other work, the fee and its purpose are confirmed to you in writing first.",
+    payment: "Consultations are by appointment: \u20b95,500 for each 30 minutes, payable in advance (in person from 5 PM; by phone 4 to 9 PM). Urgent consultations, on a priority basis from 1:30 PM on special request, are \u20b911,000 for each 30 minutes. Every consultation is prepaid. You can book on the <a href=\"/consultation/\">Book a consultation</a> page. For any other work, the fee and its purpose are confirmed to you in writing first.",
     drafts: "Free model formats (petitions and applications, for general reference only) are on our <a href=\"/drafts.html\">Model Drafts page</a>.",
-    fees: "The consultation fee is \u20b95,500 for each 30 minutes, payable in advance. Book on the <a href=\"/consultation/\">Book a consultation</a> page. Fees for any other work are discussed personally and confirmed in writing.",
+    fees: "The consultation fee is \u20b95,500 for each 30 minutes (urgent: \u20b911,000 for each 30 minutes), payable in advance. Book on the <a href=\"/consultation/\">Book a consultation</a> page. Fees for any other work are discussed personally and confirmed in writing.",
     noadvice: "I'm an automated assistant and can't give legal advice. Advocate Gagandeep Goel will respond personally on WhatsApp."
   };
   var FAQ = [
