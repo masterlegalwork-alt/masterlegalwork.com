@@ -48,21 +48,18 @@
     $("cs-urgent-note").hidden = prio() !== "Urgent";
     var m = mins();
     if (m) {
-      $("cs-fee").innerHTML = (prio() === "Urgent" ? "Urgent fee" : "Fee") + " for " + m + " minutes: <b>" + inr(fee()) + "</b>, payable in advance. The consultation goes ahead only after payment.";
-      $("cs-pay").hidden = false; $("cs-amt").textContent = inr(fee());
-      $("cs-upi").href = "upi://pay?pa=" + CONFIG.upi + "&pn=Gagandeep%20Goel&am=" + fee() + "&cu=INR&tn=" + encodeURIComponent((prio() === "Urgent" ? "Urgent consultation " : "Consultation ") + m + " min");
-      $("cs-upi").textContent = "Pay " + inr(fee()) + " by UPI app";
+      $("cs-fee").innerHTML = (prio() === "Urgent" ? "Urgent fee" : "Fee") + " for " + m + " minutes: <b>" + inr(fee()) + "</b>, payable in advance once the chambers confirm your slot on WhatsApp/email. Payment details are sent with the confirmation.";
       $("cs-fee-field").value = fee();
-      if (CONFIG.cashfreeUrl) { var g = $("cs-gateway"); g.hidden = false; g.innerHTML = 'Or pay online by card / net banking: <a href="' + CONFIG.cashfreeUrl + '" target="_blank" rel="noopener">secure payment page</a>.'; }
     }
     $("cs-wa").href = "https://wa.me/" + CONFIG.wa + "?text=" + encodeURIComponent(summary());
   }
   function summary() {
-    var keys = ["Consultation type", "Priority", "Duration", "Preferred date", "Preferred start time", "Name", "Mobile", "email", "Court / forum", "Case type", "Case no / CNR", "Parties", "Current stage", "Next date", "Advice sought", "Payment mode", "Payment reference (UTR)"];
+    var keys = ["Consultation type", "Priority", "Duration", "Preferred date", "Preferred start time", "Name", "Mobile", "email", "Court / forum", "Case type", "Case no / CNR", "Parties", "Current stage", "Next date", "Advice sought"];
     var lines = ["Consultation booking request (masterlegalwork.com)", "Booking reference: " + REF];
     keys.forEach(function (k) { var v = val(k); if (v) lines.push((k === "email" ? "Email" : k) + ": " + v); });
     if (mins()) lines.push("Fee: " + inr(fee()));
-    lines.push("Payment screenshot and documents: sending in this chat");
+    lines.push("Fee payable in advance once the slot is confirmed; payment details to be sent with the confirmation.");
+    lines.push("Documents: sending in this chat");
     return lines.join("\n");
   }
   f.addEventListener("change", update); f.addEventListener("input", function (e) { if (e.target.tagName !== "SELECT") $("cs-wa").href = "https://wa.me/" + CONFIG.wa + "?text=" + encodeURIComponent(summary()); });
@@ -75,12 +72,11 @@
     if (bad) { ev.preventDefault(); var lab = bad.closest("label"), lg = bad.closest("fieldset").querySelector("legend").textContent.replace(/^\s*\d\s*/, "").trim();
       var what = (bad.type === "radio" || bad.type === "checkbox" || !lab) ? lg : (lab.firstChild && lab.firstChild.nodeValue || lg).trim();
       return err("Please complete: " + what + ".", bad); }
-    var file = $("cs-shot").files[0];
-    if (file && (file.size > 2 * 1024 * 1024 || !/^image\//.test(file.type))) { ev.preventDefault(); return err("The payment screenshot must be an image of up to 2 MB.", $("cs-shot")); }
+    var file = null;
     var name = val("Name"), amount = inr(fee());
     docs();
     $("cs-subject").value = "Consultation booking " + REF + ": " + name + " | " + (prio() === "Urgent" ? "URGENT | " : "") + val("Consultation type") + " | " + val("Duration") + " | " + val("Preferred date") + " | " + amount + " (pending confirmation)";
-    $("cs-autoresponse").value = "Dear " + name + ",\n\nThank you. Master Legal Work has received your consultation request, booking reference " + REF + " (" + (prio() === "Urgent" ? "URGENT, " : "") + val("Consultation type") + ", " + val("Duration") + ", requested " + val("Preferred date") + " " + val("Preferred start time") + ").\n\nFee: " + amount + ", payable in advance. Payment details: UPI " + CONFIG.upi + "; or Yes Bank current account 001563300002051, IFSC YESB0000015; or ICICI Bank savings account 093501-500588, IFSC ICIC0001896; account name Gagandeep Goel. Your payment reference: " + val("Payment reference (UTR)") + ".\n\nPlease send all relevant documents simultaneously to masterlegalwork@gmail.com and WhatsApp +91 9872206969, quoting your name and booking reference (" + REF + "), so they can be studied before the consultation.\n\nThe consultation goes ahead only after the payment is received; until then your booking is pending. The time will be confirmed to you on WhatsApp or email. The fee is non-refundable; the consultation can be rescheduled once with at least 24 hours' notice. A consultation does not by itself create an advocate-client relationship.\n\nMaster Legal Work, Advocate Gagandeep Goel\nTelephone / WhatsApp: +91 9872206969";
+    $("cs-autoresponse").value = "Dear " + name + ",\n\nThank you. Master Legal Work has received your consultation request, booking reference " + REF + " (" + (prio() === "Urgent" ? "URGENT, " : "") + val("Consultation type") + ", " + val("Duration") + ", requested " + val("Preferred date") + " " + val("Preferred start time") + ").\n\nFee: " + amount + ", payable in advance once the chambers confirm your slot on WhatsApp/email. Payment details will be sent to you with the confirmation; please do not pay before that. When paying, mention your name and booking reference (" + REF + ") in the payment remark and send the receipt on WhatsApp +91 9872206969.\n\nPlease send all relevant documents simultaneously to masterlegalwork@gmail.com and WhatsApp +91 9872206969, quoting your name and booking reference (" + REF + "), so they can be studied before the consultation.\n\nPlease also send the booking summary on WhatsApp +91 9872206969. The consultation goes ahead once the payment is received after confirmation. The fee is non-refundable; the consultation can be rescheduled once with at least 24 hours' notice. A consultation does not by itself create an advocate-client relationship.\n\nMaster Legal Work, Advocate Gagandeep Goel\nTelephone / WhatsApp: +91 9872206969";
     var base = location.pathname.replace(/consultation\/.*$/, "");
     $("cs-next").value = location.origin + base + "consultation/thanks.html";
     try { sessionStorage.setItem("mlw_cs_summary", summary()); sessionStorage.setItem("mlw_cs_ref", REF); sessionStorage.setItem("mlw_cs_name", name); } catch (e) {}
