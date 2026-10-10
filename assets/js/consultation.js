@@ -30,10 +30,14 @@
   var feeText = function () { if (isSvc()) return svcFee() ? svcFrom() + inr(fee()) + svcNote() + ", subject to scope confirmation" : "to be confirmed in writing before any payment"; return mins() ? inr(fee()) : ""; };
   var hhmm = function (m) { var h = Math.floor(m / 60), mm = m % 60, ap = h >= 12 ? "PM" : "AM", h12 = ((h + 11) % 12) + 1; return h12 + ":" + (mm < 10 ? "0" : "") + mm + " " + ap; };
 
-  var now = new Date(), pad = function (n) { return (n < 10 ? "0" : "") + n; };
-  var REF = "MLW-" + String(now.getFullYear()).slice(2) + pad(now.getMonth() + 1) + pad(now.getDate()) + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+  // Booking dates follow the chambers' calendar in India, regardless of the visitor's timezone.
+  var now = new Date(), parts = new Intl.DateTimeFormat("en-IN", { timeZone: "Asia/Kolkata", year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(now), india = {};
+  parts.forEach(function (p) { if (p.type !== "literal") india[p.type] = +p.value; });
+  var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+  var REF = "MLW-" + String(india.year).slice(2) + pad(india.month) + pad(india.day) + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+  try { sessionStorage.removeItem("mlw_cs_confirmed"); } catch (e) {}
   $("cs-ref").textContent = REF; $("cs-ref-field").value = REF;
-  var t = new Date(); t.setDate(t.getDate() + 1); $("cs-date").min = t.toISOString().slice(0, 10);
+  $("cs-date").min = new Date(Date.UTC(india.year, india.month - 1, india.day + 1)).toISOString().slice(0, 10);
   if (CONFIG.nextSlot) $("cs-next-slot").querySelector("span").textContent = CONFIG.nextSlot + " (subject to confirmation).";
 
   function cal() { var u = prio() === "Urgent" ? CONFIG.urgentBookingUrl : CONFIG.bookingUrl, c = $("cs-calendar"); c.hidden = !u; if (u) c.innerHTML = '<a class="btn btn-line" href="' + u + '" target="_blank" rel="noopener">See open slots in the calendar</a>'; }
@@ -104,7 +108,7 @@
     data._autoresponse = $("cs-autoresponse").value; data._subject = $("cs-subject").value;
     fetch(CONFIG.appsScriptUrl, { method: "POST", body: JSON.stringify(data) })
       .then(function (r) { return r.json(); })
-      .then(function (j) { if (j && j.ok) location.href = $("cs-next").value; else throw new Error(j && j.error || "error"); })
+      .then(function (j) { if (j && j.ok) { try { sessionStorage.setItem("mlw_cs_confirmed", REF); } catch (e) {} location.href = $("cs-next").value; } else throw new Error(j && j.error || "error"); })
       .catch(function () { $("cs-submit").disabled = false; $("cs-submit").textContent = "Send booking request"; err("Sorry, the request could not be sent. Please use the WhatsApp button, or try again."); });
   });
 })();
