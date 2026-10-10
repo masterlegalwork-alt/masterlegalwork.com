@@ -85,8 +85,14 @@ function createClientInfoForm() {
   sh.getRange(2, lastCol + 1, sh.getMaxRows() - 1, 1).setDataValidation(status);
   sh.setFrozenRows(1);
   sh.getRange(1, 1, 1, lastCol + 2).setFontWeight('bold').setBackground('#F4EFE6');
-  if (sh.getFilter()) sh.getFilter().remove();
-  sh.getRange(1, 1, sh.getMaxRows(), lastCol + 2).createFilter();
+  // Filter: the linked response sheet is often formatted as a Table, and Sheets refuses a basic filter on a
+  // range that partially intersects a table ("can't apply a filter..."). Tables already have their own
+  // filter controls, so only add a filter when it works; never abort the run over it.
+  try {
+    if (!sh.getFilter()) sh.getDataRange().createFilter();
+  } catch (err) {
+    Logger.log('Filter skipped (sheet uses a Table with its own filters): ' + err.message);
+  }
 
   // Default Status = New on each new response
   ScriptApp.newTrigger('mlwClientInfoOnSubmit').forSpreadsheet(ss).onFormSubmit().create();
