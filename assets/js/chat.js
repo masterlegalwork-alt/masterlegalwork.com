@@ -5,7 +5,7 @@
   var WA = "919872206969";
   var FACT = {
     hours: "Please call or WhatsApp +91 98722 06969 to arrange a time to meet.",
-    offices: "<strong>Chamber:</strong> Advocate&#39;s Chamber No. 422, District and Sessions Court, Sector 43, Chandigarh.",
+    offices: "<strong>Chamber:</strong> Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043",
     contact: "Mobile: <a href=\"tel:+919872206969\">+91 98722 06969</a> \u00b7 WhatsApp: <a href=\"https://wa.me/919872206969\" target=\"_blank\" rel=\"noopener\">wa.me/919872206969</a> \u00b7 Email: <a href=\"mailto:masterlegalwork@gmail.com\">masterlegalwork@gmail.com</a>",
     payment: "Please make a payment only for a consultation confirmed by the chambers on WhatsApp/email, for the amount stated in that confirmation. Payment details are sent with the confirmation. For any question, please contact us: Mobile/WhatsApp <a href=\"tel:+919872206969\">+91 98722 06969</a> \u00b7 <a href=\"https://wa.me/919872206969\" target=\"_blank\" rel=\"noopener\">WhatsApp</a> \u00b7 Email <a href=\"mailto:masterlegalwork@gmail.com\">masterlegalwork@gmail.com</a>.",
     drafts: "Free model formats (petitions and applications, for general reference only) are on our <a href=\"/drafts.html\">Model Drafts page</a>.",
@@ -66,7 +66,7 @@
     if (key === "matter") bot("Noted. " + FACT.drafts);
     if (key === "court") {
       var v = val.toLowerCase();
-      bot("Our chamber: Advocate&#39;s Chamber No. 422, District and Sessions Court, Sector 43, Chandigarh.");
+      bot("Our chamber: Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043");
     }
     if (key === "hearing") bot("Thank you. Please do not share confidential documents here; the Advocate will tell you what is needed.");
   }

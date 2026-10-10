@@ -43,7 +43,7 @@ var REV_TYPES = ['Professional fee', 'Product'];
 var INV = {
   advocate: 'Gagandeep Goel, Advocate',
   firm: 'Master Legal Work',
-  address: 'Chamber No. 422, 4th Floor, District & Sessions Court, Sector 43, Chandigarh 160043',
+  address: 'Chamber No. 422, 4th Floor, Distt. & Sessions Court, Sector 43, Chandigarh 160043',
   phone: '+91 9872206969', email: TO,
   pan: '',                       // read at run time from Script Properties 'PAN' (never committed); the PAN line prints only when it is set
   barEnrolment: 'P/1983/2007',   // Bar Council of Punjab & Haryana enrolment, shown in the header
