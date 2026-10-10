@@ -15,7 +15,7 @@ function createClientInfoForm() {
     'shared with masterlegalwork@gmail.com.\n\n' +
     'Submitting this form does not create an advocate–client relationship. Information on this form is not legal advice.');
   form.setCollectEmail(false);
-  form.setRequireLogin(false);   // public responder link, no Google sign-in needed
+  // setRequireLogin is Workspace-only; consumer Gmail forms are public by default
   form.setLimitOneResponsePerUser(false);
   form.setAllowResponseEdits(false);
   form.setShowLinkToRespondAgain(false);
