@@ -45,10 +45,9 @@ var INV = {
   firm: 'Master Legal Work',
   address: 'Chamber No. 422, 4th Floor, District & Sessions Court, Sector 43, Chandigarh 160043',
   phone: '+91 9872206969', email: TO,
-  pan: 'AHIPG0903D',
-  showPan: true,                 // print the PAN line
+  pan: '',                       // read at run time from Script Properties 'PAN' (never committed); the PAN line prints only when it is set
   barEnrolment: 'P/1983/2007',   // Bar Council of Punjab & Haryana enrolment, shown in the header
-  aadhaarMasked: 'XXXX XXXX 2856', // masked only; never store the full number here
+  aadhaarMasked: '',             // built at run time from Script Property 'AADHAAR_LAST4' as 'XXXX XXXX ####' (never committed; never store the full number)
   showAadhaar: false,            // privacy: OFF by default; set true only if a client needs it on the bill
   tdsNote: 'The bill is not subject to any deduction except TDS.',
   gstin: '',                     // optional; leave '' unless registered
@@ -58,6 +57,14 @@ var INV = {
   productForwardGst: false,      // OFF: every bill is a Bill of Supply with no GST. Toggle: charge 18% GST (forward charge) on digital products, only after tax advice
   productGstRate: 18
 };
+/* Private identifiers live only in the deployed script's Script Properties (Project Settings > Script Properties). */
+function loadPrivateInvoiceProps_() {
+  var props = PropertiesService.getScriptProperties();
+  var pan = String(props.getProperty('PAN') || '').trim().toUpperCase();
+  var last4 = String(props.getProperty('AADHAAR_LAST4') || '').replace(/\D/g, '').slice(-4);
+  INV.pan = pan;
+  INV.aadhaarMasked = last4.length === 4 ? 'XXXX XXXX ' + last4 : '';
+}
 var RCM_NOTE = 'GST, if applicable, is payable by the recipient under reverse charge (Notification No. 13/2017-Central Tax (Rate)).';
 
 function doPost(e) {
@@ -200,6 +207,7 @@ function nextInvoiceNo() {
    13/2017-CT(Rate), serial 2). So professional fees always produce a Bill of Supply, with the RCM note when the client is a
    business (client GSTIN given). Products produce a Tax Invoice with GST only if INV.productForwardGst is switched on. */
 function makeInvoice(o) {
+  loadPrivateInvoiceProps_();
   var amount = Number(o['Amount (INR)']) || 0, expenses = Number(o['Expenses (INR)']) || 0, clerkage = Number(o['Clerkage (INR)']) || 0, isProduct = o['Revenue type'] === 'Product', business = !!String(o['Client GSTIN (optional)'] || '').trim();
   var gst = 0, title = 'Bill of Supply', treatment, taxRows = '';
   if (isProduct && INV.productForwardGst) {
@@ -215,7 +223,7 @@ function makeInvoice(o) {
     'table{width:100%;border-collapse:collapse;margin-top:14px}td,th{border:1px solid #D6CEC0;padding:7px;text-align:left}th{background:#EEE8DF}.r{text-align:right}.n{font-size:11px;color:#5C564E;margin-top:16px}.two{display:flex;justify-content:space-between;gap:24px}</style></head><body>' +
     '<h1>' + title + '</h1><div class="two"><div><b>' + esc(INV.advocate) + '</b><br>' + esc(INV.firm) + '<br>' + esc(INV.address) + '<br>' + esc(INV.phone) + ' &middot; ' + esc(INV.email) +
     (INV.barEnrolment ? '<br>Bar Enrolment: ' + esc(INV.barEnrolment) : '') +
-    (INV.showPan ? '<br>PAN: ' + (INV.pan ? esc(INV.pan) : '______________') : '') + (INV.showGstin && INV.gstin ? '<br>GSTIN: ' + esc(INV.gstin) : '') + (INV.showAadhaar && INV.aadhaarMasked ? '<br>Aadhaar: ' + esc(INV.aadhaarMasked) : '') + '</div><div><b>No.</b> ' + esc(no) + '<br><b>Date</b> ' + date + '<br><b>Reference</b> ' + esc(String(o['Reference ID'] || '')) + '</div></div>' +
+    (INV.pan ? '<br>PAN: ' + esc(INV.pan) : '') + (INV.showGstin && INV.gstin ? '<br>GSTIN: ' + esc(INV.gstin) : '') + (INV.showAadhaar && INV.aadhaarMasked ? '<br>Aadhaar: ' + esc(INV.aadhaarMasked) : '') + '</div><div><b>No.</b> ' + esc(no) + '<br><b>Date</b> ' + date + '<br><b>Reference</b> ' + esc(String(o['Reference ID'] || '')) + '</div></div>' +
     '<p style="margin-top:18px"><b>Billed to</b><br>' + esc(String(o['Client name'] || '')) + '<br>' + esc(String(o['Client address'] || '')) + (o['Client state'] ? '<br>State: ' + esc(String(o['Client state'])) : '') +
     (business ? '<br>GSTIN: ' + esc(String(o['Client GSTIN (optional)'])) : '') + '</p>' +
     '<table><tr><th>Description</th><th class="r">Amount (INR)</th></tr>' + row(isProduct ? String(o.Description || 'Legal product') : 'Professional fee' + (o.Description ? ': ' + String(o.Description) : ''), amount) +
