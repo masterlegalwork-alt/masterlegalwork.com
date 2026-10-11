@@ -81,9 +81,9 @@ function doPost(e) {
     lock.waitLock(20000);
     var ref = (kind === 'consultation' && /^MLW-\d{6}-[A-Z0-9]{3,4}$/.test(d['Booking reference'] || '')) ? d['Booking reference'] : nextRef();
     var ts = Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd.MM.yyyy HH:mm:ss');
-    var page = d.Page || d.Source || '';
+    var page = safeCell_(d.Page || d.Source || '');
     var fields = {};
-    Object.keys(d).forEach(function (k) { if (k.charAt(0) !== '_' && k !== 'Page' && k !== 'Source') fields[k] = String(d[k]).slice(0, 5000); });
+    Object.keys(d).forEach(function (k) { if (k.charAt(0) !== '_' && k !== 'Page' && k !== 'Source') fields[k] = safeCell_(String(d[k]).slice(0, 5000)); });
     var ss = book();
     appendTyped(ss, TYPES[kind], ref, ts, page, fields);
     var phone = fields.Mobile || fields.Phone || '';
@@ -99,10 +99,15 @@ function doPost(e) {
     var html = '<p>New website ' + esc(TYPES[kind].toLowerCase()) + ' received ' + ts + ' IST. Logged in "' + SHEET_NAME + '".</p><table style="border-collapse:collapse;font-family:Arial,sans-serif;font-size:14px">' +
       rows.map(function (r) { return '<tr><th style="text-align:left;padding:6px 10px;border:1px solid #ccc;background:#f4eee2;vertical-align:top">' + esc(r[0]) + '</th><td style="padding:6px 10px;border:1px solid #ccc;white-space:pre-wrap">' + esc(String(r[1])) + '</td></tr>'; }).join('') + '</table>';
     MailApp.sendEmail({to: TO, replyTo: validEmail(fields.email) ? fields.email : TO, subject: 'Website ' + TYPES[kind].toLowerCase() + ' ' + ref, htmlBody: html});
-    if (kind === 'consultation' && validEmail(fields.email) && d._autoresponse)
-      MailApp.sendEmail({to: fields.email, replyTo: TO, name: 'Master Legal Work', subject: 'Your request ' + ref + ': Master Legal Work', body: d._autoresponse});
+    if (kind === 'consultation' && validEmail(fields.email))
+      MailApp.sendEmail({to: fields.email, replyTo: TO, name: 'Master Legal Work', subject: 'Your request ' + ref + ': Master Legal Work', body: 'Your consultation request has been received. The chambers will check availability and conflicts and contact you to confirm the slot, scope and fee. No appointment is confirmed and no payment is requested by this acknowledgement. Reference: ' + ref});
     return out({ok: true, ref: ref});
   } catch (err) { try { lock.releaseLock(); } catch (x) {} return out({ok: false, error: String(err)}); }
+}
+
+function safeCell_(value) {
+  var text = String(value == null ? "" : value);
+  return /^[=+@-]/.test(text) ? "\'" + text : text;
 }
 
 function validate(kind, d) {
@@ -120,7 +125,9 @@ function validate(kind, d) {
   }
   // consultation
   var req = ['Consultation type', 'Name', 'Mobile', 'email', 'Opposite party'];
-  for (var i = 0; i < req.length; i++) if (!d[req[i]]) return 'Missing ' + req[i];
+  for (var i = 0; i < req.length; i++) if (!String(d[req[i]] || '').trim()) return 'Missing ' + req[i];
+  if (!validEmail(d.email)) return 'Valid email required';
+  if (!/^[+\d ()-]{7,25}$/.test(String(d.Mobile))) return 'Valid mobile required';
   if (['In person', 'Telephonic', 'WhatsApp', 'Video call'].indexOf(d['Consultation type']) < 0) return 'Invalid mode';
   var isSvc = d['Service requested'] && d['Service requested'] !== 'Consultation';
   if (!isSvc) {

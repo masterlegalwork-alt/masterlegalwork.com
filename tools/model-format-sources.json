@@ -1,0 +1,182 @@
+{
+  "recovery-suit": {
+    "download": "Recovery-Suit",
+    "authority": null
+  },
+  "permanent-injunction": {
+    "download": "Permanent-Injunction-Suit",
+    "authority": [
+      "Anathula Sudhakar v. P. Buchi Reddy, (2008) 4 SCC 594; judgment dated 25 March 2008, paras 11–17",
+      "https://indiankanoon.org/doc/540361/",
+      "Distinguish interference with existing possession from dispossession or a substantial title dispute. The judgment helps select the correct relief; it does not cure missing title or possession evidence."
+    ]
+  },
+  "ni-act-138-complaint": {
+    "download": "NI-Act-138-Complaint",
+    "authority": [
+      "Rangappa v. Sri Mohan, (2010) 11 SCC 441; judgment dated 7 May 2010, discussion on Section 139",
+      "https://indiankanoon.org/doc/150051/",
+      "Once the foundational signature/execution facts are established, the debt presumption assists the complainant. It remains rebuttable; support the transaction and address any probable defence."
+    ]
+  },
+  "regular-bail": {
+    "download": "Regular-Bail-Application",
+    "authority": [
+      "Dataram Singh v. State of Uttar Pradesh, (2018) 3 SCC 22; judgment dated 6 February 2018, paras 2–7",
+      "https://indiankanoon.org/doc/122663958/",
+      "Use the applicant’s cooperation, custody and manageable risks to support judicial discretion. The decision does not mandate bail in every case or displace special statutory restrictions."
+    ]
+  },
+  "anticipatory-bail": {
+    "download": "Anticipatory-Bail-Application",
+    "authority": [
+      "Sushila Aggarwal v. State (NCT of Delhi), (2020) 5 SCC 1; Constitution Bench, 29 January 2020, concluding answers",
+      "https://indiankanoon.org/doc/123660783/",
+      "Protection need not ordinarily expire on a fixed date or the filing of a police report. Its grant, duration and conditions remain fact-dependent; the order cannot obstruct lawful investigation."
+    ]
+  },
+  "quashing-on-compromise": {
+    "download": "Quashing-of-FIR-on-Compromise-Petition",
+    "authority": [
+      "Gian Singh v. State of Punjab, (2012) 10 SCC 303; judgment dated 24 September 2012, concluding principles",
+      "https://indiankanoon.org/doc/69949024/",
+      "Explain why the offence is predominantly private and why the voluntary settlement supports justice. Serious social offences and special-law restrictions require separate scrutiny; agreement alone is insufficient."
+    ]
+  },
+  "mutual-consent-divorce": {
+    "download": "Mutual-Consent-Divorce-First-Motion",
+    "authority": [
+      "Amardeep Singh v. Harveen Kaur, (2017) 8 SCC 746; 12 September 2017, paras 18–22",
+      "https://indiankanoon.org/doc/79830357/",
+      "For a waiver request, connect failed reconciliation, settled obligations and avoidable hardship to the evidence. Waiver is discretionary and concerns Section 13B(2), not an automatic exemption from all statutory requirements."
+    ]
+  },
+  "maintenance-144": {
+    "download": "Maintenance-Petition",
+    "authority": [
+      "Rajnesh v. Neha, (2021) 2 SCC 324; 4 November 2020, Part B and Final Directions",
+      "https://indiankanoon.org/doc/117541087/",
+      "Disclose income and earlier awards, explain the monthly needs, and seek appropriate adjustment and commencement from filing. The decision does not fix a universal percentage of a spouse’s income."
+    ]
+  },
+  "domestic-violence-12": {
+    "download": "Domestic-Violence-Complaint",
+    "authority": [
+      "Rajnesh v. Neha, (2021) 2 SCC 324; 4 November 2020, overlapping-maintenance directions",
+      "https://indiankanoon.org/doc/117541087/",
+      "For the monetary-maintenance component, disclose previous orders and receipts so the Court can adjust overlapping awards. This authority does not by itself prove domestic violence or establish a residence entitlement."
+    ]
+  },
+  "consumer-complaint": {
+    "download": "Consumer-Complaint",
+    "authority": null
+  },
+  "mact-claim-166": {
+    "download": "MACT-Claim-Petition",
+    "authority": [
+      "National Insurance Co. Ltd. v. Pranay Sethi, (2017) 16 SCC 680; 31 October 2017, concluding principles",
+      "https://indiankanoon.org/doc/139996215/",
+      "In a death claim, choose future prospects using proved age and employment status and explain the calculation. The framework does not replace proof of income or determine functional disability in an injury claim."
+    ]
+  },
+  "execution-order-21": {
+    "download": "Execution-Application",
+    "authority": null
+  },
+  "guardianship-gwa": {
+    "download": "Guardianship-Petition",
+    "authority": [
+      "Yashita Sahu v. State of Rajasthan, (2020) 3 SCC 67; 20 January 2020",
+      "https://indiankanoon.org/doc/144083733/",
+      "Use the child’s welfare and a workable contact plan to support custody/access relief. Contact remains subject to the child’s circumstances and safety; parental preference alone is insufficient."
+    ]
+  },
+  "exemption-personal-appearance": {
+    "download": "Exemption-from-Personal-Appearance-Criminal",
+    "authority": null
+  },
+  "adjournment": {
+    "download": "Adjournment-Application",
+    "authority": [
+      "Salem Advocate Bar Association (II) v. Union of India, (2005) 6 SCC 344; 2 August 2005, discussion headed “Adjournments”",
+      "https://indiankanoon.org/doc/342197/",
+      "Explain the exceptional impediment and prior adjournments. The decision preserves discretion in exceptional circumstances; it does not make an adjournment a party’s right."
+    ]
+  },
+  "condonation-of-delay": {
+    "download": "Condonation-of-Delay-Application",
+    "authority": null
+  },
+  "amendment-of-pleadings": {
+    "download": "Amendment-of-Pleadings-Application",
+    "authority": [
+      "Revajeetu Builders & Developers v. Narayanaswamy & Sons, (2009) 10 SCC 84; 9 October 2009, paras 61–70, especially 67",
+      "https://indiankanoon.org/doc/1893329/",
+      "Relate necessity, bona fides, prejudice, changed character and limitation to each amendment. The liberal approach does not excuse withdrawal of a material admission or failure to satisfy post-trial due diligence."
+    ]
+  },
+  "temporary-injunction": {
+    "download": "Temporary-Injunction-Application",
+    "authority": [
+      "Dalpat Kumar v. Prahlad Singh, (1992) 1 SCC 719; 16 December 1991, paras 4–5",
+      "https://indiankanoon.org/doc/49480/",
+      "Connect the prima facie right, uncompensable threatened injury and comparative hardship to the records. A prima facie case alone does not establish entitlement to an injunction."
+    ]
+  },
+  "set-aside-ex-parte-decree": {
+    "download": "Set-Aside-Ex-Parte-Decree-Application",
+    "authority": [
+      "G.P. Srivastava v. R.K. Raizada, (2000) 3 SCC 54; 3 March 2000",
+      "https://indiankanoon.org/doc/295872/",
+      "Support the sufficient cause that prevented attendance on the relevant hearing date. The decision assists a bona fide explanation; it does not excuse unexplained absence or supply missing evidence."
+    ]
+  },
+  "restoration-dismissed-in-default": {
+    "download": "Restoration-of-Suit-Application",
+    "authority": null
+  },
+  "substituted-service": {
+    "download": "Substituted-Service-Application",
+    "authority": null
+  },
+  "additional-documents": {
+    "download": "Additional-Documents-Application",
+    "authority": [
+      "Salem Advocate Bar Association (II) v. Union of India, (2005) 6 SCC 344; 2 August 2005, discussion headed “Additional Evidence”",
+      "https://indiankanoon.org/doc/342197/",
+      "Explain what diligent steps could not secure the evidence earlier and propose fair terms. The decision does not confer unrestricted permission to fill an evidentiary gap after trial."
+    ]
+  },
+  "superdari-release": {
+    "download": "Superdari-Release-Application",
+    "authority": [
+      "Sunderbhai Ambalal Desai v. State of Gujarat, (2002) 10 SCC 283; main judgment dated 1 October 2002, vehicle-custody discussion",
+      "https://indiankanoon.org/doc/1737714/",
+      "Show deterioration and provide identification safeguards and security. Prompt interim custody is supported; the decision does not override a special confiscation bar or establish the applicant’s title."
+    ]
+  },
+  "certified-copy": {
+    "download": "Certified-Copy-Application",
+    "authority": null
+  },
+  "early-hearing": {
+    "download": "Early-Hearing-Application",
+    "authority": null
+  },
+  "withdrawal-of-case": {
+    "download": "Withdrawal-of-Case-Application",
+    "authority": null
+  },
+  "inspection-of-file": {
+    "download": "Inspection-of-File-Application",
+    "authority": null
+  },
+  "surety-substitution": {
+    "download": "Surety-Substitution-Application",
+    "authority": [
+      "Moti Ram v. State of Madhya Pradesh, (1978) 4 SCC 47; 24 August 1978",
+      "https://indiankanoon.org/doc/1912056/",
+      "Explain means and the practical burden of the existing condition when seeking proportionate security. The decision does not dispense with court approval or compliance with the operative bail order."
+    ]
+  }
+}

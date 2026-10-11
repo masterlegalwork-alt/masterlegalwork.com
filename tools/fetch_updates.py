@@ -41,7 +41,7 @@ for src, url, force in FEEDS:
         root = ET.fromstring(fetch(url)); n = 0
         for it in root.iter("item"):
             t = clean(it.findtext("title")); l = (it.findtext("link") or "").strip()
-            if not t or not l.startswith("http"): continue
+            if not t or not re.match(r"^https?://[^/\s]+", l, re.I): continue
             d = clean(it.findtext("description"))
             if src.startswith("PIB") and not re.search(PIB_KEEP, t + " " + d, re.I): continue
             cats = [force] if force else [c for c, rx in CATS if re.search(rx, t + " " + d, 0 if c == "Supreme Court" else re.I) or (c == "Supreme Court" and re.search(r"supreme court", t + " " + d, re.I))]
@@ -51,6 +51,22 @@ for src, url, force in FEEDS:
         status.append({"source": src, "ok": True, "items": n})
     except Exception as e:
         status.append({"source": src, "ok": False, "error": str(e)[:120]})
+# A temporary feed failure must not erase previously published legal updates.
+try:
+    with open(OUT, encoding="utf-8") as previous_file:
+        previous = json.load(previous_file)
+except (OSError, ValueError):
+    previous = {}
+if not items:
+    print("No usable updates received; retained the existing publication.", status)
+    sys.exit(0)
+failed_sources = {entry["source"] for entry in status if not entry["ok"]}
+for category in previous.get("categories", []):
+    for item in category.get("items", []):
+        if item.get("source") in failed_sources:
+            retained = dict(item)
+            retained["category"] = category["name"]
+            items.append(retained)
 seen, out = set(), {}
 for it in sorted(items, key=lambda x: x["date"], reverse=True):
     k = it["category"] + it["title"].lower()[:90]
