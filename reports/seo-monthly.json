@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-11",
+  "counts": {
+    "html_files": 133,
+    "redirect_or_noindex": 16,
+    "indexable_pages": 117,
+    "structured_data_blocks": 168,
+    "images": 319,
+    "images_without_dimensions": 0,
+    "internal_references": 9355,
+    "sitemap_urls": 117,
+    "model_word_downloads": 76,
+    "word_downloads": 80,
+    "pdf_downloads": 77
+  },
+  "critical_findings": [],
+  "measurement_notes": [
+    "Traffic, rankings and earned backlinks are not measured. Verified Search Console exports/account access are required; no baseline or increase is inferred."
+  ]
+}
