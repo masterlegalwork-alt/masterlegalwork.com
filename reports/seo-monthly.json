@@ -15,6 +15,8 @@
   },
   "critical_findings": [],
   "measurement_notes": [
+    "Independent GitHub runner confirms HTTPS certificate hostname mismatch for masterlegalwork.com; HTTP returned 200. Hosting admin remediation required.",
     "Traffic, rankings and earned backlinks are not measured. Verified Search Console exports/account access are required; no baseline or increase is inferred."
-  ]
+  ],
+  "live_audit_url": "https://github.com/masterlegalwork-alt/masterlegalwork.com/actions/runs/38138108381"
 }

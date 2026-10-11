@@ -22,6 +22,8 @@ No static audit failures found.
 
 ## Availability and measurement
 
+Independent live check from GitHub runner: HTTPS certificate hostname mismatch for masterlegalwork.com; HTTP returned 200. [Audit evidence](https://github.com/masterlegalwork-alt/masterlegalwork.com/actions/runs/38138108381). This is an outstanding hosting issue, despite passing static checks.
+
 - Traffic, rankings and earned backlinks are not measured. Verified Search Console exports/account access are required; no baseline or increase is inferred.
 
 This audit does not certify legal accuracy, Google indexing, rendered Core Web Vitals or third-party map pins.
