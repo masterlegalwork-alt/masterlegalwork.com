@@ -22,3 +22,12 @@ Run `python tools/seo_audit.py --output reports/seo-YYYY-MM.md` each month. Use 
 Google's current guidance: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide ; https://developers.google.com/search/docs/appearance/ai-features . Foundational SEO also supports generative AI search; special AI markup and inclusion promises are unnecessary. FAQ rich-result visibility is restricted; no promise of a rich result for this advocate website.
 
 The detailed requirement matrix and public resource comparison are in [the search strategy report](../reports/search-strategy-2026-10-11.md). The expanded audit validates sitemap coverage, schema JSON, links/anchors, metadata uniqueness, image dimensions and form PDF parity.
+
+## Search and AI discovery release — 11 October 2026
+- Crawlable searchable directory: `/resources/site-directory.html`; linked from every regular page footer. All resources remain visible without scripts.
+- Five factual homepage answers with matching FAQPage data. This is for readers and machine understanding, not a promise of Google FAQ rich results.
+- Nine guide descriptions now identify their actual contents. Publisher/source-policy links explain how to use legal summaries and model forms without claiming individual professional review.
+- Profile Person data and appointment-only Mohali office data match the existing visible contact information.
+- `Website search and HTTPS checks` runs on relevant pushes and daily at 07:30 IST. It verifies static search requirements, all-page telephone links, apex/www TLS, certificate expiry and six essential public URLs. Failure is visible in GitHub Actions; no email or outreach is sent by this workflow. JSON and Markdown artifacts retain the checked facts.
+- Traffic/indexing measurement: GSC Wizard has been offered but has not been connected. Connect it to the verified masterlegalwork.com Search Console property; establish a 28-day clicks/impressions/CTR/page/query baseline and compare subsequent equivalent periods. GA4 AI-referral measurement also requires an existing linked GA4 property. No analytics tracker or paid subscription has been silently enabled.
+- No purchase is required for this release. GitHub Pages supports HTTPS without purchasing a separate certificate. Paid monitoring or SEO research should be selected only after access, a measured baseline, a concrete supplier and cost are known. Never purchase backlinks or ranking guarantees.

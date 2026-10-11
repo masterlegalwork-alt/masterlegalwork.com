@@ -35,6 +35,7 @@ def audit(output,live=False,metrics=None):
   p=Page();p.feed(f.read_text());pages[f]=p;counts['html_files']+=1
  for f,p in pages.items():
   rel=str(f.relative_to(ROOT))
+  if 'tel:+919872206969' not in p.refs:issues.append(f'{rel}: missing chambers telephone link')
   if p.skip:counts['redirect_or_noindex']+=1;continue
   counts['indexable_pages']+=1
   for label,valid in [('one H1',p.h1==1),('title',bool(p.title.strip())),('description',bool(p.description.strip())),('one canonical',len(p.canonical)==1)]:

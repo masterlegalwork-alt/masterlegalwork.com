@@ -1,0 +1,51 @@
+name: Website search and HTTPS checks
+on:
+  push:
+    paths:
+      - '**.html'
+      - 'sitemap.xml'
+      - 'robots.txt'
+      - 'assets/css/**'
+      - 'assets/js/**'
+      - 'tools/seo_audit.py'
+      - 'tools/site_health.py'
+      - '.github/workflows/site-quality.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: website-quality-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/seo_audit.py --output reports/search-quality.md
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: search-quality
+          path: reports/search-quality.*
+          retention-days: 30
+  https:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/site_health.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-site-health
+          path: reports/site-health.*
+          retention-days: 30
