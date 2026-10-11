@@ -4,14 +4,14 @@ Critical findings: 0.
 
 | Check | Count |
 |---|---:|
-| html files | 133 |
+| html files | 162 |
 | redirect or noindex | 16 |
-| indexable pages | 117 |
-| structured data blocks | 168 |
-| images | 319 |
+| indexable pages | 146 |
+| structured data blocks | 197 |
+| images | 376 |
 | images without dimensions | 0 |
-| internal references | 9355 |
-| sitemap urls | 117 |
+| internal references | 12377 |
+| sitemap urls | 146 |
 | model word downloads | 76 |
 | word downloads | 80 |
 | pdf downloads | 77 |
@@ -21,8 +21,6 @@ Critical findings: 0.
 No static audit failures found.
 
 ## Availability and measurement
-
-Independent live check from GitHub runner: HTTPS certificate hostname mismatch for masterlegalwork.com; HTTP returned 200. [Audit evidence](https://github.com/masterlegalwork-alt/masterlegalwork.com/actions/runs/38138108381). This is an outstanding hosting issue, despite passing static checks.
 
 - Traffic, rankings and earned backlinks are not measured. Verified Search Console exports/account access are required; no baseline or increase is inferred.
 
