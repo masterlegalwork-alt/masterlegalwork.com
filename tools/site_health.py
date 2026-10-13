@@ -24,7 +24,18 @@ def tls(host):
     result['ok']=expires>NOW+datetime.timedelta(days=7)
  except Exception as exc:
   result.update(ok=False,verified=False,error=f'{type(exc).__name__}: {exc}')
+  result['presented']=presented(host)
  return result
+
+def presented(host):
+ # Diagnosis only: names on the certificate actually served; never used to pass the check.
+ try:
+  ctx=ssl.create_default_context();ctx.check_hostname=False
+  with socket.create_connection((host,443),timeout=15) as sock:
+   with ctx.wrap_socket(sock,server_hostname=host) as secure:
+    cert=secure.getpeercert()
+  return {'subject':dict(x[0] for x in cert.get('subject',())).get('commonName'),'issuer':dict(x[0] for x in cert.get('issuer',())).get('organizationName'),'names':[v for k,v in cert.get('subjectAltName',[]) if k=='DNS'][:6]}
+ except Exception as exc:return {'error':f'{type(exc).__name__}: {exc}'}
 
 def page(item):
  url,marker=item;result={'url':url}
@@ -38,11 +49,12 @@ def page(item):
   result.update(ok=False,error=f'{type(exc).__name__}: {exc}')
  return result
 
-def dns(qtype):
+def dns(query):
+ name,qtype=query if isinstance(query,tuple) else (HOST,query)
  try:
-  with urllib.request.urlopen(f'https://dns.google/resolve?name={HOST}&type={qtype}',timeout=15) as res:
+  with urllib.request.urlopen(f'https://dns.google/resolve?name={name}&type={qtype}',timeout=15) as res:
    data=json.load(res)
-  return {'type':qtype,'status':data.get('Status'),'answers':data.get('Answer',[])}
+  return {'type':f'{name} {qtype}','status':data.get('Status'),'answers':data.get('Answer',[])}
  except Exception as exc:return {'type':qtype,'error':f'{type(exc).__name__}: {exc}'}
 
 def main():
@@ -50,14 +62,16 @@ def main():
   futures=[pool.submit(tls,h) for h in [HOST,'www.'+HOST]]
   pages=list(pool.map(page,URLS.items()))
   certificates=[f.result() for f in futures]
-  records=list(pool.map(dns,['A','AAAA','CAA','NS']))
+  records=list(pool.map(dns,['A','AAAA','CAA','NS',('www.'+HOST,'CNAME'),('www.'+HOST,'A')]))
  report={'checked_at':NOW.isoformat(),'tls':certificates,'pages':pages,'dns':records}
  report['ok']=all(x['ok'] for x in certificates+pages)
  out=Path('reports/site-health.json');out.parent.mkdir(exist_ok=True);out.write_text(json.dumps(report,indent=2)+'\n')
  lines=['# Public website health',f'Checked: {NOW.isoformat()}','',f"Result: {'PASS' if report['ok'] else 'ATTENTION REQUIRED'}",'','## Verified TLS']
- for c in certificates:lines.append(f"- {c['host']}: "+(f"valid; expires {c['expires']}; {c['days_remaining']} days remaining" if c.get('verified') else c.get('error','failed')))
+ for c in certificates:lines.append(f"- {c['host']}: "+(f"valid; expires {c['expires']}; {c['days_remaining']} days remaining" if c.get('verified') else c.get('error','failed')+(f"; addresses {', '.join(c.get('addresses',[]))}; served certificate {c['presented']}" if c.get('presented') else '')))
  lines+=['','## Essential pages']
  for p in pages:lines.append(f"- {p['url']}: "+(f"HTTP {p['status']}; correct content: {p['marker_found']}" if 'status' in p else p.get('error','failed')))
+ lines+=['','## DNS']
+ for r in records:lines.append(f"- {r['type']}: "+(', '.join(a.get('data','') for a in r.get('answers',[])) or r.get('error','no answer')))
  lines+=['','DNS answers and full results are in site-health.json. A passing check verifies availability at this time; it does not measure search rankings or traffic.']
  summary='\n'.join(lines)+'\n';Path('reports/site-health.md').write_text(summary)
  if os.environ.get('GITHUB_STEP_SUMMARY'):
