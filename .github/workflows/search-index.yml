@@ -1,0 +1,27 @@
+name: Rebuild site search index
+on:
+  push:
+    branches: [main]
+    paths: ["**.html", "!pagefind/**", "!updates/**"]
+  workflow_dispatch:
+  schedule:
+    - cron: "40 2 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: search-index
+  cancel-in-progress: true
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npx -y pagefind@1.1.1 --site . --output-subdir pagefind
+      - name: Commit index if it changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add pagefind
+          git diff --cached --quiet || (git commit -m "Search index $(date -u +%F)" && git pull --rebase && git push)
