@@ -1,9 +1,17 @@
 {
- "generated": "2026-10-12T18:00:23.080771+00:00",
+ "generated": "2026-10-13T02:05:04.992854+00:00",
  "categories": [
   {
    "name": "Supreme Court",
    "items": [
+    {
+     "title": "Supreme Court Hearing Of Delhi Protest Matter [Live Updates]",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/supreme-court-hearing-of-delhi-protest-matter-live-updates-554353",
+     "source": "LiveLaw",
+     "date": "2026-10-13T01:45:20+00:00",
+     "category": "Supreme Court"
+    },
     {
      "title": "Supreme Court Daily Round-Up : October 12, 2026",
      "excerpt": "",
@@ -37,22 +45,6 @@
      "category": "Supreme Court"
     },
     {
-     "title": "Karnataka High Court strikes down law enhancing SC/ST reservation as total quota exceeds 50% cap",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/karnataka-high-court-strikes-down-law-enhancing-scst-reservation-as-total-quota-exceeds-50-cap",
-     "source": "Bar & Bench",
-     "date": "2026-10-12T15:04:12+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "Here are the ten directions Rahul Gandhi has sought from Supreme Court in his petition on SIR",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/here-are-ten-directions-rahul-gandhi-has-sought-from-supreme-court-in-his-petition-on-sir",
-     "source": "Bar & Bench",
-     "date": "2026-10-12T14:47:43+00:00",
-     "category": "Supreme Court"
-    },
-    {
      "title": "Rahul Gandhi & INDIA Bloc Leaders File Writ Petition In Supreme Court Against ECI Over SIR Process",
      "excerpt": "They have sought the suspension of SIR process.",
      "link": "https://www.livelaw.in/top-stories/opposition-leader-rahul-gandhi-files-writ-petition-in-supreme-court-against-eci-over-sir-process-554285",
@@ -66,6 +58,14 @@
      "link": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1041-haramani-sahoo-and-others-versus-lalita-nayak-and-others-554332",
      "source": "LiveLaw",
      "date": "2026-10-12T14:32:17+00:00",
+     "category": "Supreme Court"
+    },
+    {
+     "title": "Order VI Rule 17 CPC | Amendment Permissible If Additional Facts & Reliefs Have Direct Nexus With Existing Controversy: Supreme Court",
+     "excerpt": "\"The real inquiry is whether the amendment introduces a distinct and independent controversy having no connection with the original cause of action, or whether it merely brings on record additional facts and…",
+     "link": "https://www.livelaw.in/supreme-court/order-vi-rule-17-cpc-amendment-permissible-if-additional-facts-reliefs-have-direct-nexus-with-existing-controversy-supreme-court-554330",
+     "source": "LiveLaw",
+     "date": "2026-10-12T14:31:24+00:00",
      "category": "Supreme Court"
     }
    ]
@@ -114,14 +114,6 @@
      "category": "High Courts"
     },
     {
-     "title": "Old Monk sale ban has cost Maharashtra ₹350 crore in revenue: Company tells Bombay High Court",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/old-monk-sale-ban-has-cost-maharashtra-350-crore-in-revenue-company-tells-bombay-high-court",
-     "source": "Bar & Bench",
-     "date": "2026-10-12T15:27:59+00:00",
-     "category": "High Courts"
-    },
-    {
      "title": "LiveLaw Allahabad High Court Weekly Round-Up: October 5 - October 11, 2026",
      "excerpt": "",
      "link": "https://www.livelaw.in/round-ups/weekly/livelaw-allahabad-high-court-weekly-round-up-october-5-october-11-2026-554335",
@@ -130,11 +122,19 @@
      "category": "High Courts"
     },
     {
-     "title": "Karnataka High Court strikes down law enhancing SC/ST reservation as total quota exceeds 50% cap",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/karnataka-high-court-strikes-down-law-enhancing-scst-reservation-as-total-quota-exceeds-50-cap",
-     "source": "Bar & Bench",
-     "date": "2026-10-12T15:04:12+00:00",
+     "title": "Delhi High Court Seeks Centre’s Stand on Delhi Gymkhana Club Land Takeover and Eviction Proceedings",
+     "excerpt": "The Delhi High Court has sought the central government’s response to a petition filed by 11 members of the Delhi Gymkhana Club challenging the takeover of its 27.3-acre grounds and subsequent eviction steps initiated…",
+     "link": "https://lawtrend.in/delhi-high-court-seeks-centres-stand-on-delhi-gymkhana-club-land-takeover-and-eviction-proceedings/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-seeks-centres-stand-on-delhi-gymkhana-club-land-takeover-and-eviction-proceedings",
+     "source": "LawTrend",
+     "date": "2026-10-12T15:02:30+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Family Members Not Liable U/S 495 IPC For Accused’s Concealment Of First Marriage Unless They Abetted Or Conspired: Patna High Court",
+     "excerpt": "The Court quashed the cognisance and discharge-rejection orders against the alleged husband’s parents and first wife after finding that the accusations of concealment, cheating and assault were principally directed…",
+     "link": "https://www.verdictum.in/patna-high-court/indrajeet-rai-and-others-v-state-of-bihar-and-another-second-marriage-concealment-1623862",
+     "source": "Verdictum",
+     "date": "2026-10-12T15:00:26+00:00",
      "category": "High Courts"
     }
    ]
@@ -324,7 +324,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 6
+   "items": 0
   },
   {
    "source": "Verdictum",
@@ -339,7 +339,7 @@
   {
    "source": "Indian Kanoon (Supreme Court judgments)",
    "ok": true,
-   "items": 0
+   "items": 7
   },
   {
    "source": "PIB (Government of India)",
