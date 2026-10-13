@@ -55,7 +55,7 @@ def dns(query):
   with urllib.request.urlopen(f'https://dns.google/resolve?name={name}&type={qtype}',timeout=15) as res:
    data=json.load(res)
   return {'type':f'{name} {qtype}','status':data.get('Status'),'answers':data.get('Answer',[])}
- except Exception as exc:return {'type':qtype,'error':f'{type(exc).__name__}: {exc}'}
+ except Exception as exc:return {'type':f'{name} {qtype}','error':f'{type(exc).__name__}: {exc}'}
 
 def main():
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
