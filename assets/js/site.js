@@ -47,7 +47,7 @@ d.querySelectorAll(".vframe button[data-yt]").forEach(function(b){b.addEventList
 /* today's date */
 d.querySelectorAll("[data-today]").forEach(function(x){try{x.textContent=new Date().toLocaleDateString("en-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"Asia/Kolkata"});}catch(e){}});
 /* PWA */
-if("serviceWorker" in navigator&&location.protocol==="https:"){window.addEventListener("load",function(){var b=(window.MLW_CONFIG&&MLW_CONFIG.base)||"";navigator.serviceWorker.register(b+"/sw.js").catch(function(){});});}
+if("serviceWorker" in navigator&&location.protocol==="https:"){window.addEventListener("load",function(){var b=(window.MLW_CONFIG&&MLW_CONFIG.base)||"";navigator.serviceWorker.register(b+"/sw.js",{updateViaCache:"none"}).catch(function(){});});}
 })();
 /* v3: hide "What's new" if the latest item is older than 48 hours (never show stale news as today's) */
 (function(){var w=document.querySelector("[data-wnew]");if(!w)return;var d=Date.parse(w.getAttribute("data-date")||"");if(!d||Date.now()-d>48*3600*1000)w.hidden=true;})();
