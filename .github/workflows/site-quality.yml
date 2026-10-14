@@ -15,6 +15,7 @@ on:
     - cron: '0 2 * * *'
 permissions:
   contents: read
+  pages: read
 concurrency:
   group: website-quality-${{ github.ref }}
   cancel-in-progress: true
@@ -42,6 +43,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: GitHub Pages domain and certificate status
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api repos/${{ github.repository }}/pages --jq '{cname, status, https_enforced, protected_domain_state, pending_domain_unverified_at, https_certificate}' || true
       - run: python tools/site_health.py
       - uses: actions/upload-artifact@v4
         if: always()
