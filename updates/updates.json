@@ -1,9 +1,25 @@
 {
- "generated": "2026-10-15T19:55:07.702281+00:00",
+ "generated": "2026-10-15T23:05:53.506544+00:00",
  "categories": [
   {
    "name": "Supreme Court",
    "items": [
+    {
+     "title": "Delhi Protests: Supreme Court Directs Police To Produce Prohibitory Orders Under S. 163 BNSS, Preserve CCTV Footage",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/delhi-protests-supreme-court-directs-police-to-produce-prohibitory-orders-under-s-163-bnss-preserve-cctv-footage-554828",
+     "source": "LiveLaw",
+     "date": "2026-10-15T20:16:55+00:00",
+     "category": "Supreme Court"
+    },
+    {
+     "title": "Delhi Protests: SG Tushar Mehta Objects To 'Misleading' Reports On Govt Apology In Supreme Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/supreme-court-delhi-protest-cec-solicitor-general-tushar-mehta-apology-clarification-justice-bagchi-says-apology-qualified-554849",
+     "source": "LiveLaw",
+     "date": "2026-10-15T20:16:32+00:00",
+     "category": "Supreme Court"
+    },
     {
      "title": "2026 LiveLaw (SC) 1061 | Deepak Raheja and Another v. Omkara Assets Reconstruction Private Ltd. and Another",
      "excerpt": "",
@@ -51,28 +67,20 @@
      "source": "LiveLaw",
      "date": "2026-10-15T14:09:17+00:00",
      "category": "Supreme Court"
-    },
-    {
-     "title": "RJD MP Manoj Jha Moves Supreme Court Challenging Lifelong Immunity To CEC, Election Commissioners; Calls It 'Fraud On Constitution'",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/top-stories/supreme-court-cec-election-commissioners-section-16-lifelong-immunity-challenge-manoj-jha-554897",
-     "source": "LiveLaw",
-     "date": "2026-10-15T12:58:24+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "Immoral Trafficking Prevention | Supreme Court Asks NJA To Frame Guidelines For Magistrates' Inquiry About Adult Rescued Women",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/top-stories/immoral-trafficking-prevention-supreme-court-asks-nja-to-frame-guidelines-for-magistrates-inquiry-into-adult-rescued-women-554884",
-     "source": "LiveLaw",
-     "date": "2026-10-15T12:09:06+00:00",
-     "category": "Supreme Court"
     }
    ]
   },
   {
    "name": "High Courts",
    "items": [
+    {
+     "title": "'Will Take Steps Against CJP, Abhijeet Dipke': Delhi Police Tells High Court In Plea Over Protest At Connaught Place",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-plea-against-cjp-protest-at-connaught-place-central-park-554843",
+     "source": "LiveLaw",
+     "date": "2026-10-15T20:39:49+00:00",
+     "category": "High Courts"
+    },
     {
      "title": "Prosecutor Not Mouthpiece Of Police; Must Function Fearlessly & Take Independent Decisions: Madras High Court",
      "excerpt": "The Madras High Court was considering a writ petition filed by a practising lawyer who had raised allegations against a Prosecutor.",
@@ -128,14 +136,6 @@
      "source": "LiveLaw",
      "date": "2026-10-15T13:56:25+00:00",
      "category": "High Courts"
-    },
-    {
-     "title": "Bombay High Court Reinstates Post-Retirement Dues of Sacked Insurer Employee",
-     "excerpt": "The Bombay High Court has set aside a 2013 dismissal order issued by National Insurance Company against a veteran employee of 36 years, ruling that long-term absence caused by documented sickness cannot be treated as a…",
-     "link": "https://lawtrend.in/bombay-high-court-reinstates-post-retirement-dues-of-sacked-insurer-employee/?utm_source=rss&utm_medium=rss&utm_campaign=bombay-high-court-reinstates-post-retirement-dues-of-sacked-insurer-employee",
-     "source": "LawTrend",
-     "date": "2026-10-15T13:45:43+00:00",
-     "category": "High Courts"
     }
    ]
   },
@@ -147,7 +147,7 @@
      "excerpt": "",
      "link": "https://www.livelaw.in/top-stories/delhi-protests-supreme-court-directs-police-to-produce-prohibitory-orders-under-s-163-bnss-preserve-cctv-footage-554828",
      "source": "LiveLaw",
-     "date": "2026-10-15T09:13:01+00:00",
+     "date": "2026-10-15T20:16:55+00:00",
      "category": "Legislation"
     },
     {
@@ -329,7 +329,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 2
+   "items": 1
   },
   {
    "source": "Verdictum",
