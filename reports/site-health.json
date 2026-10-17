@@ -1,0 +1,176 @@
+{
+  "checked_at": "2026-10-17T03:48:12.497899+00:00",
+  "tls": [
+    {
+      "host": "masterlegalwork.com",
+      "ok": false,
+      "verified": false,
+      "error": "gaierror: [Errno -3] Temporary failure in name resolution",
+      "presented": {
+        "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+      }
+    },
+    {
+      "host": "www.masterlegalwork.com",
+      "ok": false,
+      "verified": false,
+      "error": "gaierror: [Errno -3] Temporary failure in name resolution",
+      "presented": {
+        "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://masterlegalwork.com/",
+      "status": 200,
+      "final_url": "https://masterlegalwork.com/",
+      "marker_found": true,
+      "ok": true
+    },
+    {
+      "url": "https://www.masterlegalwork.com/",
+      "status": 200,
+      "final_url": "https://masterlegalwork.com/",
+      "marker_found": true,
+      "ok": true
+    },
+    {
+      "url": "https://masterlegalwork.com/resources/",
+      "status": 200,
+      "final_url": "https://masterlegalwork.com/resources/",
+      "marker_found": true,
+      "ok": true
+    },
+    {
+      "url": "https://masterlegalwork.com/contact.html",
+      "status": 200,
+      "final_url": "https://masterlegalwork.com/contact.html",
+      "marker_found": true,
+      "ok": true
+    },
+    {
+      "url": "https://masterlegalwork.com/robots.txt",
+      "status": 200,
+      "final_url": "https://masterlegalwork.com/robots.txt",
+      "marker_found": true,
+      "ok": true
+    },
+    {
+      "url": "https://masterlegalwork.com/sitemap.xml",
+      "status": 200,
+      "final_url": "https://masterlegalwork.com/sitemap.xml",
+      "marker_found": true,
+      "ok": true
+    }
+  ],
+  "dns": [
+    {
+      "type": "masterlegalwork.com A",
+      "status": 0,
+      "answers": [
+        {
+          "name": "masterlegalwork.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "185.199.111.153"
+        },
+        {
+          "name": "masterlegalwork.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "185.199.110.153"
+        },
+        {
+          "name": "masterlegalwork.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "185.199.109.153"
+        },
+        {
+          "name": "masterlegalwork.com.",
+          "type": 1,
+          "TTL": 600,
+          "data": "185.199.108.153"
+        }
+      ]
+    },
+    {
+      "type": "masterlegalwork.com AAAA",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "type": "masterlegalwork.com CAA",
+      "status": 0,
+      "answers": []
+    },
+    {
+      "type": "masterlegalwork.com NS",
+      "status": 0,
+      "answers": [
+        {
+          "name": "masterlegalwork.com.",
+          "type": 2,
+          "TTL": 3600,
+          "data": "ns04.domaincontrol.com."
+        },
+        {
+          "name": "masterlegalwork.com.",
+          "type": 2,
+          "TTL": 3600,
+          "data": "ns03.domaincontrol.com."
+        }
+      ]
+    },
+    {
+      "type": "www.masterlegalwork.com CNAME",
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.masterlegalwork.com.",
+          "type": 5,
+          "TTL": 3600,
+          "data": "masterlegalwork-alt.github.io."
+        }
+      ]
+    },
+    {
+      "type": "www.masterlegalwork.com A",
+      "status": 0,
+      "answers": [
+        {
+          "name": "www.masterlegalwork.com.",
+          "type": 5,
+          "TTL": 3600,
+          "data": "masterlegalwork-alt.github.io."
+        },
+        {
+          "name": "masterlegalwork-alt.github.io.",
+          "type": 1,
+          "TTL": 3600,
+          "data": "185.199.111.153"
+        },
+        {
+          "name": "masterlegalwork-alt.github.io.",
+          "type": 1,
+          "TTL": 3600,
+          "data": "185.199.108.153"
+        },
+        {
+          "name": "masterlegalwork-alt.github.io.",
+          "type": 1,
+          "TTL": 3600,
+          "data": "185.199.110.153"
+        },
+        {
+          "name": "masterlegalwork-alt.github.io.",
+          "type": 1,
+          "TTL": 3600,
+          "data": "185.199.109.153"
+        }
+      ]
+    }
+  ],
+  "ok": false
+}

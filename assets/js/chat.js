@@ -7,9 +7,9 @@
     hours: "Please call or WhatsApp +91 98722 06969 to arrange a time to meet.",
     offices: "<strong>Chamber:</strong> Chamber No. 422, 4th Floor, Distt. &amp; Sessions Court, Sector 43, Chandigarh 160043",
     contact: "Mobile: <a href=\"tel:+919872206969\">+91 98722 06969</a> \u00b7 WhatsApp: <a href=\"https://wa.me/919872206969\" target=\"_blank\" rel=\"noopener\">wa.me/919872206969</a> \u00b7 Email: <a href=\"mailto:masterlegalwork@gmail.com\">masterlegalwork@gmail.com</a>",
-    payment: "Payments cover court fee, consultation fee, legal expenses, professional fee and miscellaneous charges. Open our <a href=\"/payments.html\">Payments page</a> for UPI and bank details. Pay the amount agreed with the chambers and send your receipt.",
+    payment: "Payments cover professional fee, consultation fee, legal expenses and miscellaneous charges. Open our <a href=\"/payments.html\">Payments page</a> for UPI and bank details. Pay the amount agreed with the chambers and send your receipt.",
     drafts: "Free model formats (petitions and applications, for general reference only) are on our <a href=\"/drafts.html\">Model Drafts page</a>.",
-    fees: "Amounts depend on the work agreed with the chambers. Court fee, consultation fee, legal expenses, professional fee and miscellaneous charges are separate payment purposes. Use the <a href=\"/payments.html\">Payments page</a> and include your matter reference. Please confirm the amount with the chambers before paying.",
+    fees: "Amounts depend on the work agreed with the chambers. Professional fee, consultation fee, legal expenses and miscellaneous charges are separate payment purposes. Use the <a href=\"/payments.html\">Payments page</a> and include your matter reference. Please confirm the amount with the chambers before paying.",
     noadvice: "I'm an automated assistant and can't give legal advice. Advocate Gagandeep Goel will respond personally on WhatsApp."
   };
   var FAQ = [

@@ -1,0 +1,184 @@
+{
+  "models": [
+    {
+      "model": "recovery-suit",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "permanent-injunction",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "ni-act-138-complaint",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "regular-bail",
+      "pages": 5,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "anticipatory-bail",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "quashing-on-compromise",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "mutual-consent-divorce",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "maintenance-144",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "domestic-violence-12",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "consumer-complaint",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "mact-claim-166",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "execution-order-21",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "guardianship-gwa",
+      "pages": 5,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "exemption-personal-appearance",
+      "pages": 4,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "adjournment",
+      "pages": 4,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "condonation-of-delay",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "amendment-of-pleadings",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "temporary-injunction",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "set-aside-ex-parte-decree",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "restoration-dismissed-in-default",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "substituted-service",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "additional-documents",
+      "pages": 4,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "superdari-release",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "certified-copy",
+      "pages": 4,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "early-hearing",
+      "pages": 4,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "withdrawal-of-case",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "inspection-of-file",
+      "pages": 4,
+      "aliases": 3,
+      "main_pleading_preserved": true
+    },
+    {
+      "model": "surety-substitution",
+      "pages": 4,
+      "aliases": 2,
+      "main_pleading_preserved": true
+    }
+  ],
+  "unique_models": 28,
+  "rendered_pages": 125,
+  "synchronised_downloads": 126,
+  "payment_categories": [
+    "Professional fee",
+    "Consultation fee",
+    "Legal expenses",
+    "Miscellaneous charges"
+  ],
+  "insecure_resource_references": 0,
+  "broken_local_links": 0,
+  "javascript_files_checked": 16
+}
