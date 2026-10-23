@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T19:58:28.822425+00:00",
+ "generated": "2026-10-23T23:12:37.088307+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -74,14 +74,6 @@
    "name": "High Courts",
    "items": [
     {
-     "title": "SEM notice asking Neha Bora to sign peace bond not based on mere hearsay: Delhi High Court",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/sem-notice-asking-neha-bora-to-sign-peace-bond-not-based-on-mere-hearsay-delhi-high-court",
-     "source": "Bar & Bench",
-     "date": "2026-10-23T16:41:12+00:00",
-     "category": "High Courts"
-    },
-    {
      "title": "BREAKING | Delhi High Court Rejects Neha Bora's Plea Against Peace Bond Notice Amid Anti-CEC Protests",
      "excerpt": "",
      "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-neha-boras-plea-against-peace-bond-notice-amid-anti-cec-protests-555786",
@@ -135,6 +127,14 @@
      "link": "https://lawtrend.in/delhi-high-court-refuses-to-quash-%e2%82%b910000-peace-bond-notice-against-aisa-president-neha-bora/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-refuses-to-quash-%25e2%2582%25b910000-peace-bond-notice-against-aisa-president-neha-bora",
      "source": "LawTrend",
      "date": "2026-10-23T13:57:05+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Red Sanders Smuggling: AP High Court Upholds Preventive Detention, Says Delay In Deciding Detenu's Representation Satisfactorily Explained",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/ap-high-court-upholds-preventive-detention-sandalwood-smuggling-accused-555687",
+     "source": "LiveLaw",
+     "date": "2026-10-23T13:55:45+00:00",
      "category": "High Courts"
     }
    ]
@@ -353,7 +353,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 1
+   "items": 0
   },
   {
    "source": "Verdictum",
