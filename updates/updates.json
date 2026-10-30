@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T15:05:40.014127+00:00",
+ "generated": "2026-10-30T20:52:08.200580+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -9,7 +9,15 @@
      "excerpt": "",
      "link": "https://www.livelaw.in/top-stories/ugc-regulations-will-time-spent-on-phd-count-as-teaching-experience-for-associate-professor-post-supreme-court-reserves-judgment-556644",
      "source": "LiveLaw",
-     "date": "2026-10-30T15:02:23+00:00",
+     "date": "2026-10-30T15:32:50+00:00",
+     "category": "Supreme Court"
+    },
+    {
+     "title": "Any Request Made By Supreme Court To Any Court Or Tribunal Shall Be Treated As A Direction: Apex Court Pulls Up NCLAT",
+     "excerpt": "The Court observed that polite expression does not diminish authority; rather, it enhances, which should never be understood as weakness.",
+     "link": "https://www.verdictum.in/supreme-court/request-treat-as-direction-1624846",
+     "source": "Verdictum",
+     "date": "2026-10-30T15:30:00+00:00",
      "category": "Supreme Court"
     },
     {
@@ -18,14 +26,6 @@
      "link": "https://www.verdictum.in/supreme-court/rajasthan-housing-board-v-ms-hariyali-rural-ventures-ltd-others-2026-insc-1168-1624835",
      "source": "Verdictum",
      "date": "2026-10-30T14:30:46+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "Choosing your counsel in the Supreme Court: Why strategy matters more than a big name",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/columns/choosing-your-counsel-in-the-supreme-court-why-strategy-matters-more-than-a-big-name",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T13:55:15+00:00",
      "category": "Supreme Court"
     },
     {
@@ -74,6 +74,14 @@
    "name": "High Courts",
    "items": [
     {
+     "title": "Water Usage Charges On Hydropower Projects Are Tax On Electricity Generation: J&K And Ladakh High Court Strikes Down Levy",
+     "excerpt": "The Court held that the head-height formula made the levy proportionate to hydropower potential rather than the volume of water used. It also found no corresponding service or quid pro quo that could characterise the…",
+     "link": "https://www.verdictum.in/jammu-ladakh-high-court/ms-mass-n-energy-and-others-v-union-of-india-and-others-with-connected-petitions-1624837",
+     "source": "Verdictum",
+     "date": "2026-10-30T16:00:38+00:00",
+     "category": "High Courts"
+    },
+    {
      "title": "Delhi High Court Bar Association Seeks Exemption For Judges, Lawyers From Proposed BS-VI Vehicle Ban",
      "excerpt": "",
      "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-bar-association-seeks-exemption-for-judges-lawyers-from-proposed-bs-vi-vehicle-ban-556707",
@@ -95,14 +103,6 @@
      "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-uniform-formatting-rules-physical-e-filings-556701",
      "source": "LiveLaw",
      "date": "2026-10-30T14:45:46+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Ajay Devgn moves Bombay High Court against Maharashtra FDA notice over Vimal Elaichi ad",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/ajay-devgn-moves-bombay-high-court-against-maharashtra-fda-notice-over-vimal-elaichi-ad",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T14:42:22+00:00",
      "category": "High Courts"
     },
     {
@@ -130,11 +130,11 @@
      "category": "High Courts"
     },
     {
-     "title": "Kerala High Court rejects Kudale Committee's report on Vizhinjham port coastal erosion; orders fresh panel",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/kerala-high-court-rejects-kudale-committees-report-on-vizhinjham-port-coastal-erosion-orders-fresh-panel",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T13:52:55+00:00",
+     "title": "Vizhinjam Port : Kerala High Court Quashes Govt Order Forming Expert Committee To Examine Coastal Erosion",
+     "excerpt": "The Court found improprieties in the inclusion of two members in the Expert Committee.",
+     "link": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-vizhinjam-port-erosion-directs-stateconstitute-independent-expert-committee-556683",
+     "source": "LiveLaw",
+     "date": "2026-10-30T13:44:23+00:00",
      "category": "High Courts"
     }
    ]
@@ -167,33 +167,12 @@
      "category": "Legislation"
     },
     {
-     "title": "Supreme Court to vet RBI’s digital fraud regulations before notification, says banks must compensate victims",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/supreme-court-to-vet-rbis-digital-fraud-regulations-before-notification-says-banks-must-compensate-victims",
-     "source": "Bar & Bench",
-     "date": "2026-10-29T11:46:55+00:00",
-     "category": "Legislation"
-    },
-    {
      "title": "“What A Policy Says, It Is”: Supreme Court Grants War Injury Pension For Disability During Operation Rakshak Posting",
      "excerpt": "The Bench held that once an operation is specially notified under Category E(i) of MoD Policy Letter dated January 31, 2001, the benefit applies unless the policy or notification excludes it; directed the Government to…",
      "link": "https://www.verdictum.in/supreme-court/union-of-india-v-narender-kumar-2026-insc-1166-operation-rakshak-posting-disability-pension-1624748",
      "source": "Verdictum",
      "date": "2026-10-29T06:30:54+00:00",
      "category": "Legislation"
-    }
-   ]
-  },
-  {
-   "name": "Consumer",
-   "items": [
-    {
-     "title": "Delhi consumer forum directs Union Bank to compensate woman for misappropriating jewellery worth ₹47 lakh",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/delhi-consumer-forum-directs-union-bank-to-compensate-woman-for-misappropriating-jewellery-worth-47-lakh",
-     "source": "Bar & Bench",
-     "date": "2026-10-29T10:54:57+00:00",
-     "category": "Consumer"
     }
    ]
   },
@@ -270,6 +249,14 @@
    "name": "Other",
    "items": [
     {
+     "title": "LiveLaw Daily | NCLT Crisis | Mahua Moitra | Transgender Rights | Mamata Banerjee & More",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/podcast/cjp-saurav-das-twisha-sharma-reliance-industries-cji-surya-kant-bns-law-news-india-judiciary-upsc-556714",
+     "source": "LiveLaw",
+     "date": "2026-10-30T17:51:36+00:00",
+     "category": "Other"
+    },
+    {
      "title": "Property Upon Attachment Becomes Custodia Legis: Apex Court Sets Aside Order Outsting Mother-In-Law & Sisters-In-Law From Shared Household Under DV Act",
      "excerpt": "It held that under the proviso to Section 19(1)(b) of the DV Act, no order removing a woman from the shared household can be passed, and directed the raising of the attachment on the property.",
      "link": "https://www.verdictum.in/supreme-court/mother-in-law-sisters-in-law-cant-be-ousted-shared-household-non-appearance-of-husband-1624844",
@@ -294,22 +281,6 @@
      "category": "Other"
     },
     {
-     "title": "Holy cow, unholy sentence",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/columns/litigation-columns/holy-cow-unholy-sentence",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T12:33:28+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Neela Badami joins NLSIU as Professor of Practice",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/Law-School/neela-badami-joins-nlsiu-as-professor-of-practice",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T12:31:59+00:00",
-     "category": "Other"
-    },
-    {
      "title": "पुरुष की पहली शादी की जानकारी के बाद भी साथ रहने वाली महिला शादी के धोखे का दावा नहीं कर सकती: सुप्रीम कोर्ट",
      "excerpt": "सुप्रीम कोर्ट ने कहा है कि किसी पुरुष की पहले से शादी होने की जानकारी मिलने के बावजूद उसके साथ संबंध जारी रखने वाली महिला यह दावा नहीं कर सकती कि उसे धोखे से अपनी कानूनी पत्नी होने का विश्वास दिलाया गया था। जस्टिस…",
      "link": "https://lawtrend.in/supreme-court-prior-marriage-knowledge-deceitful-marriage-claim/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-prior-marriage-knowledge-deceitful-marriage-claim",
@@ -318,19 +289,27 @@
      "category": "Other"
     },
     {
-     "title": "Delhi court orders Sukesh Chandrashekhar's release in 2017 PC Act case",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/delhi-court-orders-sukesh-chandrashekhars-release-in-2017-pc-act-case",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T11:55:48+00:00",
+     "title": "कोर्ट रूम के बाहर वकीलों की नारेबाजी को इलाहाबाद हाईकोर्ट ने बताया अवमाननापूर्ण, CCTV फुटेज से पहचान करने का आदेश",
+     "excerpt": "इलाहाबाद हाईकोर्ट ने सुनवाई के दौरान कोर्ट रूम के बाहर कुछ अधिवक्ताओं द्वारा नारेबाजी और शोरगुल करने को गंभीरता से लेते हुए उनके आचरण को पूरी तरह अवमाननापूर्ण बताया है। कोर्ट ने रजिस्ट्री को CCTV फुटेज के जरिए संबंधित…",
+     "link": "https://lawtrend.in/allahabad-high-court-lawyers-sloganeering-cctv-contempt/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-high-court-lawyers-sloganeering-cctv-contempt",
+     "source": "LawTrend",
+     "date": "2026-10-30T10:24:34+00:00",
      "category": "Other"
     },
     {
-     "title": "Bengaluru court grants relief to 3 JD(S) functionaries booked for fake sting video of Siddaramaiah",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/bengaluru-court-grants-relief-to-3-jds-functionaries-booked-for-fake-sting-video-of-siddaramaiah",
-     "source": "Bar & Bench",
-     "date": "2026-10-30T11:43:34+00:00",
+     "title": "इलाहाबाद हाईकोर्ट में 12 नवंबर से याचिका दाखिल करने के नए नियम: Times New Roman 14, डबल स्पेसिंग अनिवार्य, बोल्ड और इटैलिक का सीमित इस्तेमाल",
+     "excerpt": "इलाहाबाद हाईकोर्ट ने अदालत में दाखिल होने वाली याचिकाओं और अन्य दस्तावेजों की टाइपिंग तथा फॉर्मेटिंग को लेकर नए निर्देश जारी किए हैं। अब अंग्रेजी में दाखिल होने वाले दस्तावेज Times New Roman फॉन्ट में, साइज 14 और डबल…",
+     "link": "https://lawtrend.in/allahabad-high-court-new-filing-format-rules/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-high-court-new-filing-format-rules",
+     "source": "LawTrend",
+     "date": "2026-10-30T10:11:41+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "केरल में SIR की समयसीमा बढ़ाने से सुप्रीम कोर्ट का इनकार, फॉर्म नहीं भर पाने वाले मतदाताओं के मामलों पर विचार करेगा चुनाव आयोग",
+     "excerpt": "सुप्रीम कोर्ट ने शुक्रवार को केरल में मतदाता सूची के विशेष गहन पुनरीक्षण (SIR) की समयसीमा बढ़ाने से इनकार कर दिया। हालांकि, कोर्ट ने याचिकाकर्ताओं को उन लोगों का विवरण चुनाव आयोग के समक्ष पेश करने की अनुमति दी है, जो…",
+     "link": "https://lawtrend.in/supreme-court-refuses-kerala-sir-deadline-extension/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-refuses-kerala-sir-deadline-extension",
+     "source": "LawTrend",
+     "date": "2026-10-30T10:11:41+00:00",
      "category": "Other"
     }
    ]
@@ -345,7 +324,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 32
+   "items": 0
   },
   {
    "source": "Verdictum",
