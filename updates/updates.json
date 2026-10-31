@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T14:34:54.790108+00:00",
+ "generated": "2026-10-31T20:02:05.001681+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -37,14 +37,6 @@
      "category": "Supreme Court"
     },
     {
-     "title": "CJI Surya Kant presents Madhava Menon memorial award to Attorney General R Venkataramani",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/cji-surya-kant-presents-madhava-menon-memorial-award-to-attorney-general-r-venkataramani",
-     "source": "Bar & Bench",
-     "date": "2026-10-31T13:12:17+00:00",
-     "category": "Supreme Court"
-    },
-    {
      "title": "Supreme Court Declines To Direct Pre-Loaded OBC Drop-Down Menu For Caste Column In Census, Terms It A Policy Decision",
      "excerpt": "The Court gave liberty to the OBC Federation of India to approach the Registrar General and Census Commissioner of India regarding the issue.",
      "link": "https://www.verdictum.in/supreme-court/direct-pre-loaded-obc-drop-down-menu-caste-column-issue-is-a-policy-decision-1624889",
@@ -67,12 +59,52 @@
      "source": "Verdictum",
      "date": "2026-10-31T10:30:33+00:00",
      "category": "Supreme Court"
+    },
+    {
+     "title": "Can't Claim Benefit Citing Old Age: Supreme Court Refuses To Reduce Life Sentence In Murder Case Where Appeal Was Pending For 40 Years",
+     "excerpt": "The Court refused sentence leniency to septuagenarian convicts in a 1984 Murder Case.",
+     "link": "https://www.verdictum.in/supreme-court/old-age-claim-any-benefit-sentence-because-significant-time-elapsed-incident-1624880",
+     "source": "Verdictum",
+     "date": "2026-10-31T08:30:35+00:00",
+     "category": "Supreme Court"
     }
    ]
   },
   {
    "name": "High Courts",
    "items": [
+    {
+     "title": "Meghalaya High Court Rejects Third Bail Plea Of Bangladeshi Nationals Prosecuted Under Foreigners Act Over Alleged Illegal Stay In India",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/meghalaya-high-court/meghalaya-high-court-rejects-third-bail-plea-bangladesh-nationals-556782",
+     "source": "LiveLaw",
+     "date": "2026-10-31T15:21:21+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Forfeiture Of Earnest Money Not Automatic On Breach Of Agreement To Sell, Seller Must Prove Loss: Delhi High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/forfeiture-of-earnest-money-not-automatic-on-breach-of-agreement-to-sell-seller-must-prove-loss-delhi-high-court-556789",
+     "source": "LiveLaw",
+     "date": "2026-10-31T15:20:31+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Delhi High Court Rejects NIA's Appeal Against Bail To Accused In J&K Terror Conspiracy Case",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-rejects-nias-appeal-against-bail-to-accused-in-jk-terror-conspiracy-case-556742",
+     "source": "LiveLaw",
+     "date": "2026-10-31T15:20:23+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Mere Filing Of Police Complaint Does Not Amount To Defamation: Delhi High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/mere-filing-of-police-complaint-does-not-amount-to-defamation-delhi-high-court-556637",
+     "source": "LiveLaw",
+     "date": "2026-10-31T15:20:11+00:00",
+     "category": "High Courts"
+    },
     {
      "title": "Large Number Of Devotees Likely To Visit Somnath Temple During Deepavali: Gujarat High Court Stays Order Quashing Meat Ban Notification",
      "excerpt": "The Bench kept the District Magistrate’s notification prohibiting sale of non-vegetarian food around Somnath Temple in force till November 25, 2026, notes respondents could not cite any contrary judgment.",
@@ -103,38 +135,6 @@
      "link": "https://www.verdictum.in/kerala-high-court/austin-suney-v-high-court-of-kerala-temporary-entry-pass-law-internship-policy-1624910",
      "source": "Verdictum",
      "date": "2026-10-31T13:50:06+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Consent To A Relationship Is Not Tantamount To Consent To Each Act Within It: Delhi High Court",
-     "excerpt": "The Court denied anticipatory bail to Doctor accused of rape, and held that Section 69 BNS is a residual provision and vacates interim protection citing alleged loss of phone and deletion of chats.",
-     "link": "https://www.verdictum.in/delhi-high-court/akshay-aditya-v-the-state-of-nct-of-delhi-2026dhc9608-doctor-accused-of-rape-consensual-relationship-1624888",
-     "source": "Verdictum",
-     "date": "2026-10-31T12:30:39+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Doctor’s Certificate And Thumb Impression Are Rules of Caution, Not Legal Requirements For A Valid Dying Declaration: Delhi High Court",
-     "excerpt": "The Bench upheld an ASI’s murder conviction in 1998 bride-burning case, acquitted the sister-in-law of cruelty and asked the Police Commissioner to arrest proclaimed offenders absconding for 28 years.",
-     "link": "https://www.verdictum.in/delhi-high-court/raj-kumari-v-state-nct-of-delhi-2026dhc9629-db-1998-bride-burning-case-dowry-death-1624886",
-     "source": "Verdictum",
-     "date": "2026-10-31T11:10:58+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Acid Burns Must Have Lasting Impact To Attract S. 326A IPC: Allahabad High Court Alters Acid Attack Conviction To S. 324 IPC",
-     "excerpt": "HC says a simple burn healing within 13 days does not attract Section 326A IPC; converts conviction to Section 324 IPC.",
-     "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-acid-attack-burns-lasting-impact-section-326a-ipc-alters-acid-attack-conviction-556766",
-     "source": "LiveLaw",
-     "date": "2026-10-31T10:56:22+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Madras High Court forms judicial panel to take over Chidambaram Nataraja Temple administration",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/madras-high-court-forms-judicial-panel-to-take-over-chidambaram-nataraja-temple-administration",
-     "source": "Bar & Bench",
-     "date": "2026-10-31T10:30:40+00:00",
      "category": "High Courts"
     }
    ]
@@ -171,6 +171,22 @@
   {
    "name": "Criminal",
    "items": [
+    {
+     "title": "Meghalaya High Court Rejects Third Bail Plea Of Bangladeshi Nationals Prosecuted Under Foreigners Act Over Alleged Illegal Stay In India",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/meghalaya-high-court/meghalaya-high-court-rejects-third-bail-plea-bangladesh-nationals-556782",
+     "source": "LiveLaw",
+     "date": "2026-10-31T15:21:21+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Delhi High Court Rejects NIA's Appeal Against Bail To Accused In J&K Terror Conspiracy Case",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-rejects-nias-appeal-against-bail-to-accused-in-jk-terror-conspiracy-case-556742",
+     "source": "LiveLaw",
+     "date": "2026-10-31T15:20:23+00:00",
+     "category": "Criminal"
+    },
     {
      "title": "Large Number Of Devotees Likely To Visit Somnath Temple During Deepavali: Gujarat High Court Stays Order Quashing Meat Ban Notification",
      "excerpt": "The Bench kept the District Magistrate’s notification prohibiting sale of non-vegetarian food around Somnath Temple in force till November 25, 2026, notes respondents could not cite any contrary judgment.",
@@ -218,28 +234,28 @@
      "source": "Verdictum",
      "date": "2026-10-31T10:30:33+00:00",
      "category": "Criminal"
-    },
-    {
-     "title": "Mercedes crash: What action taken against online posts revealing minor accused's identity? Kerala Court to Police",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/mercedes-crash-what-action-taken-against-online-posts-revealing-minor-accuseds-identity-kerala-court-to-police",
-     "source": "Bar & Bench",
-     "date": "2026-10-31T09:05:02+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Can't Claim Benefit Citing Old Age: Supreme Court Refuses To Reduce Life Sentence In Murder Case Where Appeal Was Pending For 40 Years",
-     "excerpt": "The Court refused sentence leniency to septuagenarian convicts in a 1984 Murder Case.",
-     "link": "https://www.verdictum.in/supreme-court/old-age-claim-any-benefit-sentence-because-significant-time-elapsed-incident-1624880",
-     "source": "Verdictum",
-     "date": "2026-10-31T08:30:35+00:00",
-     "category": "Criminal"
     }
    ]
   },
   {
    "name": "Other",
    "items": [
+    {
+     "title": "Consultant (Legal) Vacancy At Directorate of Plant Protection Quarantine & Storage",
+     "excerpt": "",
+     "link": "https://www.verdictum.in/directorate-of-plant-protection-quarantine-storage",
+     "source": "Verdictum",
+     "date": "2026-10-31T15:10:17+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "CCPA Imposes ₹1 Lakh Penalty On Britannia Industries Over '100% Whole Wheat Bread' Claim",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/consumer-cases/ccpa-imposes-1-lakh-penalty-on-britannia-industries-over-100-whole-wheat-bread-claim-556778",
+     "source": "LiveLaw",
+     "date": "2026-10-31T14:41:11+00:00",
+     "category": "Other"
+    },
     {
      "title": "Rewriting Record: Rethinking Evidentiary Consequences Of Edited Messages",
      "excerpt": "",
@@ -257,35 +273,11 @@
      "category": "Other"
     },
     {
-     "title": "CCPA Imposes ₹1 Lakh Penalty On Britannia Industries Over '100% Whole Wheat Bread' Claim",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/consumer-cases/ccpa-imposes-1-lakh-penalty-on-britannia-industries-over-100-whole-wheat-bread-claim-556778",
-     "source": "LiveLaw",
-     "date": "2026-10-31T13:44:47+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Transparency on trial: Mapping courts’ compliance with the RTI Act",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/columns/transparency-on-trial-mapping-courts-compliance-with-the-rti-act",
-     "source": "Bar & Bench",
-     "date": "2026-10-31T12:20:12+00:00",
-     "category": "Other"
-    },
-    {
      "title": "[Advertisement] 6 Weeks Course For UPSC Combined Recruitment Test: Law (Delhi APP And Other Combined Exams)",
      "excerpt": "",
      "link": "https://www.livelaw.in/lawschool/diploma-certificate-courses/6-weeks-course-upsc-combined-recruitment-test-law-delhi-app-other-combined-exams-556774",
      "source": "LiveLaw",
      "date": "2026-10-31T12:09:27+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Logical discrepancy but illogical interim orders?",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/columns/logical-discrepancy-but-illogical-interim-orders",
-     "source": "Bar & Bench",
-     "date": "2026-10-31T11:13:38+00:00",
      "category": "Other"
     },
     {
@@ -303,6 +295,14 @@
      "source": "LiveLaw",
      "date": "2026-10-31T09:31:04+00:00",
      "category": "Other"
+    },
+    {
+     "title": "Kochi Mercedes Benz Crash: Kerala Court Directs Cyber Police To Take Down Social Media Posts Revealing Minor's Details",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/news-updates/kerala-court-kochi-mercedes-benz-crash-cancel-minor-bail-556757",
+     "source": "LiveLaw",
+     "date": "2026-10-31T09:14:59+00:00",
+     "category": "Other"
     }
    ]
   }
@@ -316,12 +316,12 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 6
+   "items": 0
   },
   {
    "source": "Verdictum",
    "ok": true,
-   "items": 42
+   "items": 41
   },
   {
    "source": "LawTrend",
