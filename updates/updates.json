@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T18:29:54.107141+00:00",
+ "generated": "2026-11-03T02:24:31.751059+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -82,14 +82,6 @@
      "category": "High Courts"
     },
     {
-     "title": "Lucky Ali moves Karnataka High Court challenging closure of forgery case concerning family property",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/lucky-ali-moves-karnataka-high-court-challenging-closure-of-forgery-case-concerning-family-property",
-     "source": "Bar & Bench",
-     "date": "2026-11-02T16:00:16+00:00",
-     "category": "High Courts"
-    },
-    {
      "title": "'Ill Inside Jail, But Can Go Abroad When Granted Bail?': Kerala High Court Questions Ex-DGP Tomin Thachankary's Plea",
      "excerpt": "",
      "link": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-tomin-thachankary-abroad-plea-556884",
@@ -135,6 +127,14 @@
      "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-fir-lawyers-courtroom-violence-556966",
      "source": "LiveLaw",
      "date": "2026-11-02T14:41:46+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Mere Failure Of IVF Treatment Does Not Establish Offence Of Cheating: Allahabad High Court Quashes Criminal Case Against Doctor",
+     "excerpt": "HC said that allowing criminal prosecution under Section 420 IPC (Cheating) for unsuccessful medical treatment would set a \"dangerous precedent\"",
+     "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-ivf-treatment-failure-cheating-case-556972",
+     "source": "LiveLaw",
+     "date": "2026-11-02T14:40:05+00:00",
      "category": "High Courts"
     }
    ]
@@ -233,27 +233,11 @@
    "name": "Other",
    "items": [
     {
-     "title": "Evidence items including Rado watches go missing from Kerala court; police launch probe",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/evidence-items-including-rado-watches-go-missing-from-kerala-court-police-launch-probe",
-     "source": "Bar & Bench",
-     "date": "2026-11-02T16:14:23+00:00",
-     "category": "Other"
-    },
-    {
      "title": "Empanelment Of Advocates At Bihar Shiksha Pariyojana Parishad (BSPP)",
      "excerpt": "",
      "link": "https://www.verdictum.in/job-updates/bihar-shiksha-pariyojana-parishad-1625018",
      "source": "Verdictum",
      "date": "2026-11-02T16:00:50+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "We don't want to be the largest firm, we want to be the finest: Amar Gupta and Vivek Chandy on JSA turning 35",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/interviews/we-dont-want-to-be-the-largest-firm-we-want-to-be-the-finest-jsas-amar-gupta-and-vivek-chandy-at-jsa-turning-35",
-     "source": "Bar & Bench",
-     "date": "2026-11-02T15:44:10+00:00",
      "category": "Other"
     },
     {
@@ -295,6 +279,22 @@
      "source": "LawTrend",
      "date": "2026-11-02T11:24:45+00:00",
      "category": "Other"
+    },
+    {
+     "title": "दिल्ली-NCR में 7 और 8 नवंबर को ग्रीन पटाखे जलाने की अनुमति, सुप्रीम कोर्ट ने तय किया समय, 9 नवंबर से फिर पूर्ण प्रतिबंध",
+     "excerpt": "सुप्रीम कोर्ट ने दिवाली के अवसर पर दिल्ली-NCR में 7 और 8 नवंबर को निर्धारित समय के दौरान ग्रीन पटाखे जलाने की अनुमति दी है। हालांकि, कोर्ट ने स्पष्ट किया कि यह छूट केवल दो दिनों के लिए होगी और 9 नवंबर 2026 से पटाखों पर…",
+     "link": "https://lawtrend.in/supreme-court-delhi-ncr-green-crackers-diwali-2026/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-delhi-ncr-green-crackers-diwali-2026",
+     "source": "LawTrend",
+     "date": "2026-11-02T11:20:06+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "Rajasthan State Legal Services Authority Launches Four Statewide Missions, Inaugurates Legal Assistance Centre And Rooftop Solar Plant",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/news-updates/rajasthan-state-legal-services-authority-launches-four-statewide-missions-inaugurates-legal-assistance-centre-rooftop-solar-plant-556931",
+     "source": "LiveLaw",
+     "date": "2026-11-02T10:48:19+00:00",
+     "category": "Other"
     }
    ]
   }
@@ -308,7 +308,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 4
+   "items": 0
   },
   {
    "source": "Verdictum",
@@ -323,7 +323,7 @@
   {
    "source": "Indian Kanoon (Supreme Court judgments)",
    "ok": true,
-   "items": 0
+   "items": 7
   },
   {
    "source": "PIB (Government of India)",
