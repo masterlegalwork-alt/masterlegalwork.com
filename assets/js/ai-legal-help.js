@@ -1,0 +1,10 @@
+/* MLW AI legal information UI. All model calls MUST go through a privately configured server endpoint. */
+(()=>{"use strict";const $=id=>document.getElementById(id),log=$("messages"),form=$("ask"),input=$("question"),status=$("status"),send=$("send");let history=[];
+const endpoint=window.MLW_AI_ENDPOINT||"https://mlw-ai.masterlegalwork.com/";
+function bubble(s,mine){const e=document.createElement("div");e.className="bubble"+(mine?" me":"");e.textContent=s;log.append(e);log.scrollTop=log.scrollHeight;}
+function unavailable(){status.textContent="Live AI is not connected yet; consultation booking remains available.";bubble("The AI response service is not currently available. For general guidance, use the legal guides or contact the chambers for consultation. No question was submitted to an AI provider.",false);}
+form.addEventListener("submit",async e=>{e.preventDefault();const q=input.value.trim();if(!q||!$("consent").checked)return;history.push({role:"user",content:q});history=history.slice(-8);bubble(q,true);input.value="";send.disabled=true;status.textContent="Checking AI service…";
+try{const ctrl=new AbortController();const timer=setTimeout(()=>ctrl.abort(),22000);let res;try{res=await fetch(endpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:history}),signal:ctrl.signal});}finally{clearTimeout(timer);}if(!res.ok)throw Error("Service unavailable");const data=await res.json();if(!data||typeof data.answer!=="string"||!data.answer.trim())throw Error("Invalid reply");const ans=data.answer.slice(0,9000);bubble(ans,false);history.push({role:"assistant",content:ans});history=history.slice(-8);status.textContent="General information only; verify authorities independently.";}catch(_){history.pop();unavailable();}finally{send.disabled=false;}});
+document.querySelectorAll("[data-q]").forEach(b=>b.addEventListener("click",()=>{input.value=b.dataset.q;input.focus();}));
+$("clear").addEventListener("click",()=>{history=[];log.replaceChildren();bubble("Conversation cleared from this page. Avoid sharing private case information.",false);status.textContent="";input.value="";});
+})();
