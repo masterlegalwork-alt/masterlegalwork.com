@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-03T19:33:45.291940+00:00",
+ "generated": "2026-11-04T00:39:18.168213+00:00",
  "categories": [
   {
    "name": "Supreme Court",
    "items": [
+    {
+     "title": "Suspended Sanskrit University Students Move Supreme Court After Kerala High Court Denies Interim Relief To Write Semester Exams",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/suspended-sanskrit-university-students-move-supreme-court-after-kerala-high-court-denies-interim-relief-to-write-semester-exams-557206",
+     "source": "LiveLaw",
+     "date": "2026-11-04T00:31:39+00:00",
+     "category": "Supreme Court"
+    },
     {
      "title": "Supreme Court Daily Round-Up : November 3, 2026",
      "excerpt": "",
      "link": "https://www.livelaw.in/top-stories/supreme-court-daily-round-up-november-3-2026-557188",
      "source": "LiveLaw",
      "date": "2026-11-03T18:20:58+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "Supreme Court upholds reopening of tax assessments against former CJI YK Sabharwal’s sons",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/supreme-court-upholds-reopening-of-tax-assessments-against-former-cji-yk-sabharwals-sons",
-     "source": "Bar & Bench",
-     "date": "2026-11-03T15:40:34+00:00",
      "category": "Supreme Court"
     },
     {
@@ -74,6 +74,14 @@
    "name": "High Courts",
    "items": [
     {
+     "title": "Suspended Sanskrit University Students Move Supreme Court After Kerala High Court Denies Interim Relief To Write Semester Exams",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/suspended-sanskrit-university-students-move-supreme-court-after-kerala-high-court-denies-interim-relief-to-write-semester-exams-557206",
+     "source": "LiveLaw",
+     "date": "2026-11-04T00:31:39+00:00",
+     "category": "High Courts"
+    },
+    {
      "title": "Actress Assault Case: Survivor's Trial Court Lawyer Moves Kerala High Court Seeking Contempt Action Against Judge",
      "excerpt": "Adv T.B. Mini has alleged that the judge had made defamatory remarks about her.",
      "link": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-actress-assault-contempt-honey-m-varghese-557205",
@@ -128,14 +136,6 @@
      "source": "Verdictum",
      "date": "2026-11-03T15:30:34+00:00",
      "category": "High Courts"
-    },
-    {
-     "title": "Confidential Information Can Be Relied On To Establish Security Threat: Bombay High Court Upholds Eviction Of Tenant By RBI",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/bombay-high-court/reliance-placed-confidential-information-establishing-security-threat-557171",
-     "source": "LiveLaw",
-     "date": "2026-11-03T15:20:30+00:00",
-     "category": "High Courts"
     }
    ]
   },
@@ -181,19 +181,6 @@
      "source": "Verdictum",
      "date": "2026-11-02T06:00:37+00:00",
      "category": "Legislation"
-    }
-   ]
-  },
-  {
-   "name": "Consumer",
-   "items": [
-    {
-     "title": "J&K Consumer Commission Holds Bajaj Allianz Liable For Unjustified Deduction From Flood Insurance Claim",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/consumer-cases/jk-consumer-commission-holds-bajaj-allianz-liable-for-unjustified-deduction-from-flood-insurance-claim-557067",
-     "source": "LiveLaw",
-     "date": "2026-11-03T09:00:49+00:00",
-     "category": "Consumer"
     }
    ]
   },
@@ -270,14 +257,6 @@
    "name": "Other",
    "items": [
     {
-     "title": "Savarkar defamation: Kin alleges security lapse, failure to examine witnesses in Mahatma Gandhi killing",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/savarkar-defamation-kin-alleges-security-lapse-failure-to-examine-witnesses-in-mahatma-gandhi-killing",
-     "source": "Bar & Bench",
-     "date": "2026-11-03T16:25:37+00:00",
-     "category": "Other"
-    },
-    {
      "title": "Para Legal Person Vacancy At Women and Child Development Corporation, bihar",
      "excerpt": "",
      "link": "https://www.verdictum.in/job-updates/women-and-child-development-corporation-1625078",
@@ -332,6 +311,14 @@
      "source": "LawTrend",
      "date": "2026-11-03T12:34:08+00:00",
      "category": "Other"
+    },
+    {
+     "title": "How Much Alcohol Can You Legally Store At Home? State Excise Laws Explained",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/how-much-alcohol-can-you-legally-store-at-home-state-excise-laws-explained-557101",
+     "source": "LiveLaw",
+     "date": "2026-11-03T12:31:17+00:00",
+     "category": "Other"
     }
    ]
   }
@@ -345,7 +332,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 2
+   "items": 0
   },
   {
    "source": "Verdictum",
