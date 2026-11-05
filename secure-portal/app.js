@@ -25,7 +25,7 @@ async function auth(){
 $("google").addEventListener("click",async()=>{
  if(!db)return;const {error}=await db.auth.signInWithOAuth({provider:"google",options:{redirectTo:location.origin+"/secure-portal/"}});if(error)setStatus("Google sign-in not available; verify OAuth provider configuration.");
 });
-$("logout").addEventListener("click",async()=>{if(!db)return;await db.auth.signOut();session=null;matters=[];show("workspace",false);show("matter",false);setStatus("Signed out.");});
+$("logout").addEventListener("click",async()=>{if(!db)return;await db.auth.signOut();session=null;activeId=null;resetTelegram();matters=[];show("workspace",false);show("matter",false);setStatus("Signed out.");});
 async function loadMatters(){
  if(!db||!session)return;
  const {data,error}=await db.from("matters").select("id,title,internal_ref,court,case_number,stage,status,created_at").order("created_at",{ascending:false}).limit(100);
@@ -39,10 +39,10 @@ function renderMatters(){
  $("matters").replaceChildren();if(!rows.length){empty("matters","No matching authorised matters.");return;}
  for(const m of rows){const b=node("button",undefined,"item");b.type="button";b.append(node("strong",m.title||"Untitled matter"),node("div",[m.internal_ref,m.court,m.case_number,m.status].filter(Boolean).join(" · "),"tag"));b.addEventListener("click",()=>openMatter(m.id));$("matters").append(b);}
 }
-$("filter").addEventListener("input",renderMatters);$("sort").addEventListener("change",renderMatters);$("reload").addEventListener("click",loadMatters);$("back").addEventListener("click",()=>{show("matter",false);show("workspace",true);});
+$("filter").addEventListener("input",renderMatters);$("sort").addEventListener("change",renderMatters);$("reload").addEventListener("click",loadMatters);$("back").addEventListener("click",()=>{activeId=null;resetTelegram();show("matter",false);show("workspace",true);});
 async function openMatter(id){
  if(!db||!session||!matters.some(m=>m.id===id))return;
- activeId=id;const m=matters.find(x=>x.id===id);
+ resetTelegram();activeId=id;const m=matters.find(x=>x.id===id);
  $("matter-title").textContent=m.title||"Matter";
  $("matter-meta").textContent=[m.internal_ref,m.court,m.case_number,m.stage,m.status].filter(Boolean).join(" · ");
  show("workspace",false);show("matter",true);
@@ -59,3 +59,27 @@ async function openMatter(id){
  rows.forEach(v=>{const p=node("p");if(i===0)p.textContent=[v.display_name,v.doc_type].filter(Boolean).join(" · ");if(i===1)p.textContent=[v.event_type,new Date(v.event_at).toLocaleString("en-IN"),v.note].filter(Boolean).join(" · ");if(i===2)p.textContent=v.content;$(target).append(p);});
  });
 }
+
+function resetTelegram(){
+ $("telegram-code").value="";
+ $("telegram-status").textContent="";
+ show("telegram",config.telegramEnabled===true);
+}
+async function changeTelegram(link){
+ const id=activeId,user=session?.id,field=$("telegram-code");
+ if(!config.telegramEnabled||!db||!user||!id)return;
+ const code=field.value.trim();
+ field.value="";
+ if(link&&!/^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i.test(code)){
+  $("telegram-status").textContent="Enter the full code from the bot.";return;
+ }
+ const {error}=await db.rpc(link?"mlw_telegram_link":"mlw_telegram_unlink",
+  link?{mid:id,pairing_code:code}:{mid:id});
+ if(activeId!==id||session?.id!==user)return;
+ $("telegram-status").textContent=error
+  ?"Request unsuccessful. Linking requires MFA, current matter access and a fresh code."
+  :link?"Telegram linked for this matter.":"Telegram unlinked for this matter.";
+}
+$("telegram-form").addEventListener("submit",event=>{event.preventDefault();void changeTelegram(true);});
+$("telegram-unlink").addEventListener("click",()=>void changeTelegram(false));
+
