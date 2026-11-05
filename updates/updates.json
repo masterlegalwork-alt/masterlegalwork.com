@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:53:34.987760+00:00",
+ "generated": "2026-11-05T00:56:10.589583+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -367,8 +367,8 @@
   },
   {
    "source": "Indian Kanoon (Supreme Court judgments)",
-   "ok": true,
-   "items": 4
+   "ok": false,
+   "error": "HTTP Error 522: <none>"
   },
   {
    "source": "PIB (Government of India)",
