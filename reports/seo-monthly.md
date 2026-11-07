@@ -1,17 +1,17 @@
-# Technical search audit — 2026-10-11
+# Technical search audit — 2026-11-07
 
 Critical findings: 0.
 
 | Check | Count |
 |---|---:|
-| html files | 162 |
-| redirect or noindex | 16 |
-| indexable pages | 146 |
-| structured data blocks | 197 |
-| images | 376 |
+| html files | 183 |
+| redirect or noindex | 29 |
+| indexable pages | 154 |
+| structured data blocks | 209 |
+| images | 396 |
 | images without dimensions | 0 |
-| internal references | 12377 |
-| sitemap urls | 146 |
+| internal references | 16162 |
+| sitemap urls | 154 |
 | model word downloads | 76 |
 | word downloads | 80 |
 | pdf downloads | 77 |
