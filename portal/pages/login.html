@@ -1,0 +1,53 @@
+<style>.btn-google{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:11px 16px;border:1px solid #cfc8b8;border-radius:8px;background:#fff;color:#14213d;font:inherit;font-weight:600;cursor:pointer;margin-top:8px}.btn-google:hover{background:#f6f3ec}.btn-google:disabled{opacity:.6;cursor:wait}.or{display:flex;align-items:center;gap:10px;color:#5d6475;font-size:.85rem;margin:6px 0 14px}.or::before,.or::after{content:"";flex:1;border-top:1px solid #e4dfd3}</style>
+<section class="card panel" style="margin:0 auto;">
+  <h1>Client Login</h1>
+  <button type="button" class="btn-google" id="googleBtn">
+    <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9 3.6l6.7-6.7C35.6 2.4 30.2 0 24 0 14.6 0 6.6 5.4 2.7 13.2l7.8 6.1C12.4 13.6 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5z"/><path fill="#FBBC05" d="M10.5 28.7c-.5-1.5-.8-3-.8-4.7s.3-3.2.8-4.7l-7.8-6.1C1 16.6 0 20.2 0 24s1 7.4 2.7 10.8l7.8-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.5-5.8c-2.1 1.4-4.9 2.3-8.4 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.8 6.1C6.6 42.6 14.6 48 24 48z"/></svg>
+    Continue with Google
+  </button>
+  <p class="err" id="googleErr"></p>
+  <div class="or"><span>or use email</span></div>
+  <div class="tabs" role="group" aria-label="Login or sign up">
+    <button type="button" data-tab="login" aria-pressed="true">Log in</button>
+    <button type="button" data-tab="signup" aria-pressed="false">Create login</button>
+  </div>
+
+  <form id="loginForm" novalidate>
+    <label for="li-email">Email</label>
+    <input id="li-email" name="email" type="email" autocomplete="email" required>
+    <label for="li-pass">Password</label>
+    <input id="li-pass" name="password" type="password" autocomplete="current-password" required>
+    <div class="captcha" style="margin-top:16px;min-height:78px" data-captcha="login" hidden></div>
+    <p class="err" data-err></p>
+    <div class="form-actions"><button class="btn" type="submit">Log in</button></div>
+  </form>
+
+  <form id="signupForm" novalidate hidden>
+    <p class="help">Use the same email address you gave our office, so your matters can be linked to your login.</p>
+    <label for="su-first">First name</label>
+    <input id="su-first" name="firstName" type="text" autocomplete="given-name" required>
+    <label for="su-last">Last name</label>
+    <input id="su-last" name="lastName" type="text" autocomplete="family-name" required>
+    <label for="su-email">Email</label>
+    <input id="su-email" name="email" type="email" autocomplete="email" required>
+    <label for="su-mobile">Mobile number</label>
+    <input id="su-mobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91 98XXXXXXXX" pattern="^\+?[0-9 \-]{10,15}$" required>
+    <label for="su-pass">Password</label>
+    <input id="su-pass" name="password" type="password" autocomplete="new-password" minlength="6" required>
+    <div class="captcha" style="margin-top:16px;min-height:78px" data-captcha="signup"></div>
+    <p class="err" data-err></p>
+    <div class="form-actions"><button class="btn" type="submit">Create login</button></div>
+  </form>
+
+  <form id="verifyForm" novalidate hidden>
+    <p>We have sent a verification code to your email. Enter it below.</p>
+    <label for="v-code">Verification code</label>
+    <input id="v-code" name="code" type="text" inputmode="numeric" autocomplete="one-time-code" required>
+    <p class="err" data-err></p>
+    <div class="form-actions"><button class="btn" type="submit">Verify</button></div>
+  </form>
+
+  <div id="approval" class="notice" hidden>
+    Thank you. Your login request has been received. Our office will approve it shortly, after which you can log in.
+  </div>
+</section>

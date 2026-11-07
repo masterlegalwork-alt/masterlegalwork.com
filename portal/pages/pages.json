@@ -1,0 +1,68 @@
+[
+  {
+    "page": "index",
+    "title": "Welcome",
+    "description": "Secure client portal of Master Legal Work for case status, hearing dates, documents and consultations.",
+    "script": ""
+  },
+  {
+    "page": "login",
+    "title": "Client Login",
+    "description": "Log in to view your matters.",
+    "script": "login.js"
+  },
+  {
+    "page": "matters",
+    "title": "My Matters",
+    "description": "Your matters and hearing dates.",
+    "script": "matters.js"
+  },
+  {
+    "page": "matter",
+    "title": "Matter Details",
+    "description": "Matter details, hearing history and documents.",
+    "script": "matter.js"
+  },
+  {
+    "page": "case-file",
+    "title": "Client Information Form",
+    "description": "Parties and dates for your case.",
+    "script": "case-file.js"
+  },
+  {
+    "page": "how-we-work",
+    "title": "How We Work",
+    "description": "How your matter is handled, updated and handed over.",
+    "script": "how-we-work.js"
+  },
+  {
+    "page": "book",
+    "title": "Book a Consultation",
+    "description": "Request a consultation.",
+    "script": "enquiry.js"
+  },
+  {
+    "page": "service",
+    "title": "Book a Consultation",
+    "description": "Choose a date and time for your consultation.",
+    "script": "service.js"
+  },
+  {
+    "page": "enquiry",
+    "title": "New Matter Enquiry",
+    "description": "Send details of a new matter to our office.",
+    "script": "enquiry.js"
+  },
+  {
+    "page": "privacy",
+    "title": "Privacy & Disclaimer",
+    "description": "Privacy notice and disclaimer.",
+    "script": ""
+  },
+  {
+    "page": "auth-callback",
+    "title": "Signing in",
+    "description": "Completing sign-in.",
+    "script": "auth-callback.js"
+  }
+]
