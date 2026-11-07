@@ -1,26 +1,26 @@
 # Public website health
-Checked: 2026-10-17T03:48:12.497899+00:00
+Checked: 2026-11-07T01:26:21.898182+00:00
 
 Result: ATTENTION REQUIRED
 
 ## Verified TLS
-- masterlegalwork.com: gaierror: [Errno -3] Temporary failure in name resolution; addresses ; served certificate {'error': 'gaierror: [Errno -3] Temporary failure in name resolution'}
-- www.masterlegalwork.com: gaierror: [Errno -3] Temporary failure in name resolution; addresses ; served certificate {'error': 'gaierror: [Errno -3] Temporary failure in name resolution'}
+- masterlegalwork.com: gaierror: [Errno -2] Name or service not known; addresses ; served certificate {'error': 'gaierror: [Errno -2] Name or service not known'}
+- www.masterlegalwork.com: gaierror: [Errno -2] Name or service not known; addresses ; served certificate {'error': 'gaierror: [Errno -2] Name or service not known'}
 
 ## Essential pages
-- https://masterlegalwork.com/: HTTP 200; correct content: True
-- https://www.masterlegalwork.com/: HTTP 200; correct content: True
-- https://masterlegalwork.com/resources/: HTTP 200; correct content: True
-- https://masterlegalwork.com/contact.html: HTTP 200; correct content: True
-- https://masterlegalwork.com/robots.txt: HTTP 200; correct content: True
-- https://masterlegalwork.com/sitemap.xml: HTTP 200; correct content: True
+- https://masterlegalwork.com/: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- https://www.masterlegalwork.com/: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- https://masterlegalwork.com/resources/: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- https://masterlegalwork.com/contact.html: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- https://masterlegalwork.com/robots.txt: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- https://masterlegalwork.com/sitemap.xml: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
 
 ## DNS
-- masterlegalwork.com A: 185.199.111.153, 185.199.110.153, 185.199.109.153, 185.199.108.153
-- masterlegalwork.com AAAA: no answer
-- masterlegalwork.com CAA: no answer
-- masterlegalwork.com NS: ns04.domaincontrol.com., ns03.domaincontrol.com.
-- www.masterlegalwork.com CNAME: masterlegalwork-alt.github.io.
-- www.masterlegalwork.com A: masterlegalwork-alt.github.io., 185.199.111.153, 185.199.108.153, 185.199.110.153, 185.199.109.153
+- masterlegalwork.com A: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- masterlegalwork.com AAAA: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- masterlegalwork.com CAA: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- masterlegalwork.com NS: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- www.masterlegalwork.com CNAME: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+- www.masterlegalwork.com A: URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
 
 DNS answers and full results are in site-health.json. A passing check verifies availability at this time; it does not measure search rankings or traffic.
