@@ -1,0 +1,37 @@
+/* Client Information Form */
+.cf-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 16px; }
+.cf-tabs button { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 7px 14px; font: inherit; font-size: .9rem; cursor: pointer; color: var(--ink); }
+.cf-tabs button[aria-selected="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.tablewrap { overflow-x: auto; }
+.grid-table { width: 100%; border-collapse: collapse; font-size: .92rem; background: #fff; }
+.grid-table th, .grid-table td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.grid-table th { background: #eceef2; font-weight: 600; }
+.grid-table .act { white-space: nowrap; }
+.entry { margin-top: 16px; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+.row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 14px; }
+.tbc { color: var(--warn); font-weight: 600; }
+.court-doc { background: #fff; color: #000; border: 1px solid var(--line); padding: 28px 32px; margin-top: 14px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.5; }
+.court-doc p { margin: 0 0 10px; }
+.court-doc .c-head { text-align: center; font-weight: 700; }
+.court-doc .c-center { text-align: center; }
+.court-doc .c-title { text-align: center; font-weight: 700; text-decoration: underline; margin: 14px 0; }
+.court-doc .role, .court-doc .c-right { text-align: right; }
+.court-doc .role { font-weight: 700; margin-bottom: 16px; }
+.court-doc .counsel { display: flex; justify-content: space-between; gap: 20px; margin-top: 28px; }
+.doc-table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+.doc-table th, .doc-table td { border: 1px solid #000; padding: 6px 8px; vertical-align: top; text-align: left; }
+.doc-table th { background: #d9d9d9; }
+.doc-table td:first-child, .doc-table th:first-child { width: 8%; text-align: center; }
+.doc-table td:nth-child(2) { width: 16%; white-space: nowrap; }
+.print-only { display: none; }
+@media (max-width: 640px) { .row2, .row3 { grid-template-columns: 1fr; } .court-doc { padding: 16px; font-size: 14px; } .court-doc .counsel { flex-direction: column; } }
+@media print {
+  @page { size: 8.5in 14in; margin: 1.2in 1.2in 1.2in 1.6in; }
+  body { background: #fff; }
+  .site-header, .site-footer, .noprint { display: none !important; }
+  main { padding: 0; }
+  .print-only { display: block; }
+  .court-doc { border: 0; padding: 0; margin: 0; font-size: 13pt; }
+  .court-doc .tbc { color: #000; font-weight: 400; }
+}
