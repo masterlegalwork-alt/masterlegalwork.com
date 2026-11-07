@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-11-07",
   "counts": {
-    "html_files": 162,
-    "redirect_or_noindex": 16,
-    "indexable_pages": 146,
-    "structured_data_blocks": 197,
-    "images": 376,
+    "html_files": 183,
+    "redirect_or_noindex": 29,
+    "indexable_pages": 154,
+    "structured_data_blocks": 209,
+    "images": 396,
     "images_without_dimensions": 0,
-    "internal_references": 12377,
-    "sitemap_urls": 146,
+    "internal_references": 16162,
+    "sitemap_urls": 154,
     "model_word_downloads": 76,
     "word_downloads": 80,
     "pdf_downloads": 77
