@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T20:16:51.730074+00:00",
+ "generated": "2026-11-07T23:42:40.902681+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -74,14 +74,6 @@
    "name": "High Courts",
    "items": [
     {
-     "title": "Advocates and court staff perform essential duties: Delhi HC says while exempting them from non-BS VI vehicle ban",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/advocates-and-court-staff-perform-essential-duties-delhi-hc-says-while-exempting-them-from-non-bs-vi-vehicle-ban",
-     "source": "Bar & Bench",
-     "date": "2026-11-07T18:14:47+00:00",
-     "category": "High Courts"
-    },
-    {
      "title": "'Political Satire Can't Attack Dignity': Delhi High Court Orders Takedown Of AAP's Deepfake Videos Targeting CM Rekha Gupta",
      "excerpt": "",
      "link": "https://www.livelaw.in/high-court/delhi-high-court/political-satire-cant-attack-dignity-delhi-high-court-orders-takedown-of-aaps-deepfake-videos-targeting-cm-rekha-gupta-557688",
@@ -135,6 +127,14 @@
      "link": "https://www.livelaw.in/high-court/bombay-high-court/bombay-high-court-quashes-state-minister-order-converting-devsthan-inam-land-557759",
      "source": "LiveLaw",
      "date": "2026-11-07T14:10:21+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Foreigner Without Valid Visa Cannot Seek Release Even After Acquittal While Foreigners Act Movement Restriction Order Stands: Karnataka High Court",
+     "excerpt": "The Court disposed of the habeas corpus petition with liberty to challenge separately the order restricting the petitioner’s movement under Section 3(2)(e) of the Foreigners Act, 1946.",
+     "link": "https://www.verdictum.in/karnataka-high-court/mohammed-fahad-hi-alias-mohammed-koya-v-the-state-of-karnataka-and-others-1625359",
+     "source": "Verdictum",
+     "date": "2026-11-07T13:50:53+00:00",
      "category": "High Courts"
     }
    ]
@@ -340,7 +340,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 1
+   "items": 0
   },
   {
    "source": "Verdictum",
