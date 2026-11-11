@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T16:16:34.634299+00:00",
+ "generated": "2026-11-11T22:50:20.272549+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -74,6 +74,14 @@
    "name": "High Courts",
    "items": [
     {
+     "title": "LiveLaw High Courts Daily Highlights: November 11, 2026",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/all-high-courts/high-courts-daily-highlights-november-11-2026-558163",
+     "source": "LiveLaw",
+     "date": "2026-11-11T19:41:50+00:00",
+     "category": "High Courts"
+    },
+    {
      "title": "Fake Allahabad High Court Order Cited In Centre's Takedown Directive For 95 Websites; UP Police Register FIR",
      "excerpt": "",
      "link": "https://www.livelaw.in/top-stories/fake-allahabad-high-court-order-95-websites-blocked-fir-558162",
@@ -127,14 +135,6 @@
      "link": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-mercedes-benz-crash-minor-bail-cancel-558152",
      "source": "LiveLaw",
      "date": "2026-11-11T15:04:55+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Book Procurement Scam | State Informs Madras High Court That FIR Will Be Registered By Monday, Says No One Will Be Spared",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-book-procurement-scam-fir-will-be-registered-state-tells-558153",
-     "source": "LiveLaw",
-     "date": "2026-11-11T15:00:39+00:00",
      "category": "High Courts"
     }
    ]
@@ -196,14 +196,6 @@
      "category": "Criminal"
     },
     {
-     "title": "UP Police registers FIR after forged Allahabad High Court order leads to takedown of 95 websites",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/up-police-registers-fir-after-forged-allahabad-high-court-order-leads-to-takedown-of-95-websites",
-     "source": "Bar & Bench",
-     "date": "2026-11-11T14:41:10+00:00",
-     "category": "Criminal"
-    },
-    {
      "title": "Public Library Book Procurement Scam: Madras High Court Orders DVAC FIR, Account Freeze And Action Against Officials",
      "excerpt": "The Court also directed the immediate withdrawal of suspect books from public access, the identification of every person involved in the procurement process and the disclosure of the exact amount spent from the public…",
      "link": "https://www.verdictum.in/madras-high-court/ramasubbu-v-k-gopal-and-another-tamil-nadu-public-library-book-procurement-scam-1625540",
@@ -225,6 +217,14 @@
      "link": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/punjab-haryana-high-court-grants-bail-directs-to-circulate-instructions-to-police-bail-rejected-over-fals-558094",
      "source": "LiveLaw",
      "date": "2026-11-11T09:15:49+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Public Servant In Judicial Custody For Over 48 Hours Is Under Deemed Suspension, No Specific Order Required: Supreme Court",
+     "excerpt": "The Court restored bail to a hospital manager in a ₹4,000 bribery case and asked the State to look into his reposting to the same hospital and post after his suspension was revoked.",
+     "link": "https://www.verdictum.in/supreme-court/public-servant-judicial-custody-over-48-hours-under-deemed-suspension-1625506",
+     "source": "Verdictum",
+     "date": "2026-11-11T09:00:19+00:00",
      "category": "Criminal"
     }
    ]
@@ -265,14 +265,6 @@
      "category": "Other"
     },
     {
-     "title": "Ola's extra pay for faster rides feature doesn't work: CCPA asks it to scrap practice, slaps ₹10 lakh penalty",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/olas-extra-pay-for-faster-rides-feature-doesnt-work-ccpa-asks-it-to-scrap-practice-slaps-10-lakh-penalty",
-     "source": "Bar & Bench",
-     "date": "2026-11-11T13:49:04+00:00",
-     "category": "Other"
-    },
-    {
      "title": "एक से अधिक अदालतों का क्षेत्राधिकार होना फोरम शॉपिंग का आधार नहीं, सुप्रीम कोर्ट ने दिल्ली हाईकोर्ट से मद्रास हाईकोर्ट स्थानांतरित किया मुकदमा",
      "excerpt": "सुप्रीम कोर्ट ने कहा है कि किसी विवाद पर एक से अधिक अदालतों का क्षेत्रीय अधिकार क्षेत्र होना अपने आप में फोरम शॉपिंग (Forum Shopping) को उचित नहीं ठहराता। पक्षकार केवल इस आधार पर अपनी पसंद की अदालत में मुकदमा दाखिल करने…",
      "link": "https://lawtrend.in/supreme-court-forum-shopping-delhi-madras-high-court-transfer/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-forum-shopping-delhi-madras-high-court-transfer",
@@ -289,11 +281,19 @@
      "category": "Other"
     },
     {
-     "title": "Is the Collegium system failing women?",
+     "title": "Rahul Gandhi Defamation Case: Kerala Court Issues Summons To Ex-DGP Sreelekha",
      "excerpt": "",
-     "link": "https://www.barandbench.com/columns/is-the-collegium-system-failing-indian-women",
-     "source": "Bar & Bench",
-     "date": "2026-11-11T12:34:24+00:00",
+     "link": "https://www.livelaw.in/news-updates/kerala-court-rahul-gandhi-defamation-case-r-sreelekha-558113",
+     "source": "LiveLaw",
+     "date": "2026-11-11T10:48:13+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "Does Aadhaar Prove Your Citizenship Or Age? | Here's What Happened",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/videos/aadhaar-citizenship-indian-citizenship-foreigner-legal-india-news-558112",
+     "source": "LiveLaw",
+     "date": "2026-11-11T10:43:34+00:00",
      "category": "Other"
     }
    ]
@@ -308,7 +308,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 7
+   "items": 0
   },
   {
    "source": "Verdictum",
