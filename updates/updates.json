@@ -1,9 +1,25 @@
 {
- "generated": "2026-11-12T07:20:49.731575+00:00",
+ "generated": "2026-11-12T16:51:40.526298+00:00",
  "categories": [
   {
    "name": "Supreme Court",
    "items": [
+    {
+     "title": "Supreme Court Judgment Can’t Be Presumed Prospective Without Specific Direction: Patna High Court Upholds EBC Treatment Of Tanti-Tantwa Candidates",
+     "excerpt": "The Court dismissed an appeal by Trade Instructor candidates who had applied as Scheduled Caste candidates but were subsequently considered under the Extremely Backward Class category following the Supreme Court’s…",
+     "link": "https://www.verdictum.in/patna-high-court/suman-kumar-and-others-v-state-of-bihar-and-others-ebc-sc-status-tanti-tatwa-1625615",
+     "source": "Verdictum",
+     "date": "2026-11-12T15:10:17+00:00",
+     "category": "Supreme Court"
+    },
+    {
+     "title": "'Tanti-Tantwa Community To Be Treated As EBC, Not Scheduled Caste, Following Supreme Court Ruling': Patna High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/patna-high-court/patna-high-court-upholds-exclusion-candidates-trade-instructor-recruitment-558208",
+     "source": "LiveLaw",
+     "date": "2026-11-12T08:35:11+00:00",
+     "category": "Supreme Court"
+    },
     {
      "title": "Written Grounds Of Arrest Mandatory Or Substantial Compliance Enough? Supreme Court Rulings Reveal Divergent Approaches",
      "excerpt": "While some decisions have treated written grounds of arrest as mandatory, certain judgments have adopted a 'prejudice' test.",
@@ -18,30 +34,6 @@
      "link": "https://www.livelaw.in/round-ups/monthly/supreme-court-monthly-roundup-october-2026-558088",
      "source": "LiveLaw",
      "date": "2026-11-12T03:51:13+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "Overlapping Jurisdiction No Ground for Forum Shopping, Says Supreme Court; Transfers Suit From Delhi HC to Madras HC",
-     "excerpt": "The Supreme Court has transferred a commercial suit from the Delhi High Court to the Madras High Court, holding that the availability of territorial jurisdiction in more than one court cannot by itself be used to…",
-     "link": "https://lawtrend.in/supreme-court-forum-shopping-territorial-jurisdiction/?utm_source=rss&utm_medium=rss&utm_campaign=supreme-court-forum-shopping-territorial-jurisdiction",
-     "source": "LawTrend",
-     "date": "2026-11-11T12:47:03+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "SLP Dismissal No Bar to Review, but “Question of Law Kept Open” Doesn’t Help Same Parties: Allahabad HC",
-     "excerpt": "The Allahabad High Court has held that a review application can still be filed before it after the Supreme Court dismisses a Special Leave Petition (SLP) without giving reasons. It also held that where the Supreme Court…",
-     "link": "https://lawtrend.in/allahabad-high-court-slp-dismissal-review-maintainable-question-of-law-kept-open/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-high-court-slp-dismissal-review-maintainable-question-of-law-kept-open",
-     "source": "LawTrend",
-     "date": "2026-11-11T12:39:07+00:00",
-     "category": "Supreme Court"
-    },
-    {
-     "title": "Prohibitory Orders Near SC Premises Not Lifted; Display Board Can Be Kept : Supreme Court Clarifies",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/top-stories/supreme-court-allows-authorities-display-notice-section163-bnss-prohibitory-order-558117",
-     "source": "LiveLaw",
-     "date": "2026-11-11T11:14:20+00:00",
      "category": "Supreme Court"
     },
     {
@@ -66,67 +58,67 @@
    "name": "High Courts",
    "items": [
     {
-     "title": "Safeguards U/S 223(2) BNSS Must Be Followed Before Notice Is Issued On Private Complaint Against Police Officer: Karnataka High Court",
-     "excerpt": "The Bench noted that the sanction under Section 218 is needed only at the stage of cognizance; it set aside notice issued to Head Constable without superior officer’s report and hearing, and remitted the matter to…",
-     "link": "https://www.verdictum.in/karnataka-high-court/sri-shiva-shankar-v-state-of-karnataka-criminal-petition-no-3641-of-2026-notice-issued-to-head-constable-without-superior-officers-report-1625584",
+     "title": "Delhi High Court Enhances Compensation To ₹4.26 Crore For Road Accident Victim In Coma Since 2022",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-enhances-compensation-to-426-crore-for-road-accident-victim-in-coma-since-2022-558275",
+     "source": "LiveLaw",
+     "date": "2026-11-12T16:10:48+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Police Probes 'Hanging Fire' For Months Across UP: Allahabad High Court Flags IOs' Inaction, Seeks ACS Home's Plan To Remedy Delays",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-up-police-investigation-delays-acs-home-558272",
+     "source": "LiveLaw",
+     "date": "2026-11-12T15:58:33+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "'Criminal Law Moves Fast Against Poor, But Not Influential': Madras High Court As Centre Sanctions Prosecution Of 2 IAS Officers",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-tender-irregularities-case-sanction-given-prosecute-ias-officers-558269",
+     "source": "LiveLaw",
+     "date": "2026-11-12T15:55:44+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "PIL Not Tool For Settling Policy Or Reopening Decisions Of Tribunals: Madras High Court Dismisses PIL To Curb Imports Under DFIA Scheme",
+     "excerpt": "The High Court held that Paragraph 2.58 of the Foreign Trade Policy, which makes the DGFT’s interpretation final, cannot take away the jurisdiction Parliament has given to CESTAT.",
+     "link": "https://www.verdictum.in/madras-high-court/pil-not-tool-policy-reopening-decisions-tibunal-plea-to-curb-imports-dfia-scheme-1625616",
      "source": "Verdictum",
-     "date": "2026-11-12T07:00:08+00:00",
+     "date": "2026-11-12T15:50:38+00:00",
      "category": "High Courts"
     },
     {
-     "title": "Photographing King Cobra In Forest Doesn't Establish Illegal Capture: Karnataka High Court Quashes Case Against Snake Rescuer Gowri Shankar",
+     "title": "Can Persons Who Convert To Christianity Claim “Most Backward Class” Reservation? Madras High Court To Examine",
      "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-quashes-snake-rescuer-dr-pgowri-shankar-accused-exploiting-king-cobra-commercial-gains-558194",
+     "link": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-christian-converts-most-backward-class-reservation-claim-examine-558266",
      "source": "LiveLaw",
-     "date": "2026-11-12T06:45:06+00:00",
+     "date": "2026-11-12T15:49:10+00:00",
      "category": "High Courts"
     },
     {
-     "title": "Allahabad High Court Sets Aside 159-Page Commercial Court Order; Says Length Of Judgment No Substitute For Judicial Scrutiny",
+     "title": "Tips Earned By Waiter Are Part Of Income For Computing Motor Accident Compensation: Punjab & Haryana High Court",
      "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-judgment-quality-determined-depth-judicial-scrutiny-558181",
+     "link": "https://www.livelaw.in/high-court/punjab-and-haryana-high-court/punjab-haryana-high-court-tips-earned-by-waiter-are-part-of-income-for-computing-motor-accident-compensation-558267",
      "source": "LiveLaw",
-     "date": "2026-11-12T06:36:42+00:00",
+     "date": "2026-11-12T15:48:26+00:00",
      "category": "High Courts"
     },
     {
-     "title": "Accused Cannot Claim Default Bail By Treating Police Report As Incomplete For Want Of CCTV Or Call Records: Madras High Court",
-     "excerpt": "A timely police report disclosing sufficient evidence or reasonable suspicion need not contain every item that may emerge from further investigation.",
-     "link": "https://www.verdictum.in/madras-high-court/m-alex-v-union-of-india-police-investigation-report-cognizance-magistrate-1625582",
+     "title": "Supreme Court Judgment Can’t Be Presumed Prospective Without Specific Direction: Patna High Court Upholds EBC Treatment Of Tanti-Tantwa Candidates",
+     "excerpt": "The Court dismissed an appeal by Trade Instructor candidates who had applied as Scheduled Caste candidates but were subsequently considered under the Extremely Backward Class category following the Supreme Court’s…",
+     "link": "https://www.verdictum.in/patna-high-court/suman-kumar-and-others-v-state-of-bihar-and-others-ebc-sc-status-tanti-tatwa-1625615",
      "source": "Verdictum",
-     "date": "2026-11-12T06:30:50+00:00",
+     "date": "2026-11-12T15:10:17+00:00",
      "category": "High Courts"
     },
     {
-     "title": "Landlady’s Tailoring Work From Home Does Not Negate Need For Main-Road Shop: Delhi High Court Upholds Eviction",
-     "excerpt": "The Delhi High Court has held that a landlady who already does tailoring work from home can still have a bona fide need for a commercial shop on the main road for the same business. The Court dismissed a revision…",
-     "link": "https://lawtrend.in/delhi-high-court-landlady-tailoring-bona-fide-need-eviction-drc-act/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-landlady-tailoring-bona-fide-need-eviction-drc-act",
-     "source": "LawTrend",
-     "date": "2026-11-12T06:25:46+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Welfare of child can't be sole reason to order paternity test: Karnataka High Court",
+     "title": "High Court Gives UP Govt 3 More Months To Comply With Jan 2026 Order On Statewide Scrutiny Of Govt Teachers' Appointments",
      "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/welfare-of-child-cant-be-sole-reason-to-order-paternity-test-karnataka-high-court",
-     "source": "Bar & Bench",
-     "date": "2026-11-12T06:18:22+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Loan Recovery Harassment: Telangana High Court Directs Police To Examine Borrowers' Complaint Under RBI Guidelines",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-directs-police-act-borrower-complaint-alleging-violation-2022rbi-recovery-agents-circular-558182",
+     "link": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-up-teachers-appointments-statewide-scrutiny-558258",
      "source": "LiveLaw",
-     "date": "2026-11-12T06:15:02+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Karnataka High Court Rejects Plea Against KSRTC, BMTC Ban On Tobacco Ads In Buses",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-refuses-quash-circulars-issued-state-transport-corporations-directing-removal-advertisements-558175",
-     "source": "LiveLaw",
-     "date": "2026-11-12T06:01:00+00:00",
+     "date": "2026-11-12T14:48:51+00:00",
      "category": "High Courts"
     }
    ]
@@ -134,6 +126,22 @@
   {
    "name": "Legislation",
    "items": [
+    {
+     "title": "PIL Not Tool For Settling Policy Or Reopening Decisions Of Tribunals: Madras High Court Dismisses PIL To Curb Imports Under DFIA Scheme",
+     "excerpt": "The High Court held that Paragraph 2.58 of the Foreign Trade Policy, which makes the DGFT’s interpretation final, cannot take away the jurisdiction Parliament has given to CESTAT.",
+     "link": "https://www.verdictum.in/madras-high-court/pil-not-tool-policy-reopening-decisions-tibunal-plea-to-curb-imports-dfia-scheme-1625616",
+     "source": "Verdictum",
+     "date": "2026-11-12T15:50:38+00:00",
+     "category": "Legislation"
+    },
+    {
+     "title": "Undertrial’s Death From Assault By Co-Convicts Due To Jail Negligence: Orissa High Court Awards ₹15 Lakh, Compassionate Job To Widow",
+     "excerpt": "The State had offered only ₹3 lakh under its 2023 notification in the Bhanjanagar Sub-Jail death, while the Court also directed compassionate appointment in a Group-D post as a special case.",
+     "link": "https://www.verdictum.in/orissa-high-court/sasi-behera-v-state-of-odisha-wpc-no-5194-of-2025-assault-by-co-convicts-due-to-jail-negligence-1625588",
+     "source": "Verdictum",
+     "date": "2026-11-12T08:10:12+00:00",
+     "category": "Legislation"
+    },
     {
      "title": "Safeguards U/S 223(2) BNSS Must Be Followed Before Notice Is Issued On Private Complaint Against Police Officer: Karnataka High Court",
      "excerpt": "The Bench noted that the sanction under Section 218 is needed only at the stage of cognizance; it set aside notice issued to Head Constable without superior officer’s report and hearing, and remitted the matter to…",
@@ -149,22 +157,6 @@
      "source": "LiveLaw",
      "date": "2026-11-12T04:30:49+00:00",
      "category": "Legislation"
-    },
-    {
-     "title": "Beyond Assumptions & Misconceptions: A Closer Look At Maharashtra’s Freedom Of Religion Act, 2026",
-     "excerpt": "",
-     "link": "https://www.verdictum.in/columns/beyond-assumptions-misconceptions-a-closer-look-at-maharashtras-freedom-of-religion-act-2026-1625508",
-     "source": "Verdictum",
-     "date": "2026-11-10T15:08:48+00:00",
-     "category": "Legislation"
-    },
-    {
-     "title": "Gorkha Seva Sena’s Invitation To Consultation On Darjeeling-Sikkim Unification Does Not Attract S.196 BNS: Sikkim High Court Quashes Case",
-     "excerpt": "The Court quashed an FIR, charge-sheet and trial against three members of Gorkha Seva Sena. It called their use of the State’s 50th Statehood logo “mischievous” and left the State free to act on it.",
-     "link": "https://www.verdictum.in/sikkim-high-court/bikram-rai-bikramadi-rai-v-state-of-sikkim-crl-mc-no-01-of-2026-gorkha-seva-senas-invitation-1625486",
-     "source": "Verdictum",
-     "date": "2026-11-10T08:00:09+00:00",
-     "category": "Legislation"
     }
    ]
   },
@@ -172,67 +164,67 @@
    "name": "Criminal",
    "items": [
     {
+     "title": "'Criminal Law Moves Fast Against Poor, But Not Influential': Madras High Court As Centre Sanctions Prosecution Of 2 IAS Officers",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-tender-irregularities-case-sanction-given-prosecute-ias-officers-558269",
+     "source": "LiveLaw",
+     "date": "2026-11-12T15:55:44+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Owner Or Manager Not Automatically Criminally Liable: Madhya Pradesh High Court Grants Bail In Fireworks Factory Explosion Case",
+     "excerpt": "The Court granted bail to two appellants accused in an alleged illegal-fireworks-factory explosion that killed 12 workers and injured 19, while leaving their individual responsibility and the evidentiary value of the…",
+     "link": "https://www.verdictum.in/madhya-pradesh-high-court/mukesh-vij-v-state-of-madhya-pradesh-anil-malviya-v-state-of-madhya-pradesh-a-2026mphc-ind31069-1625605",
+     "source": "Verdictum",
+     "date": "2026-11-12T12:20:39+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Prosecution For Overstaying Visa Would Only Prolong Afghan National's Stay In India: MP High Court Quashes FIR",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-dismisses-overstaying-fir-against-afghan-student-558243",
+     "source": "LiveLaw",
+     "date": "2026-11-12T11:40:43+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Veeramani POCSO Case | First Chargesheet Filed, Multiple Other Chargesheet Will Be Filed In Few Days: SIT Tells Madras High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-veeramani-pocso-case-first-chargesheet-filed-sit-tells-558242",
+     "source": "LiveLaw",
+     "date": "2026-11-12T11:31:12+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Kerala High Court Allows State's Appeal Against Order Quashing Restructuring Of Police Associations",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-appeals-order-quashing-police-associations-restructuring-558197",
+     "source": "LiveLaw",
+     "date": "2026-11-12T08:54:11+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Police Cannot Restrict Extended Bar Hours On Mere Apprehension Of Law & Order Problem: Kerala High Court Sets Aside Notice Barring DJ Parties After 11 PM",
+     "excerpt": "The High Court set aside police notices barring DJ parties after 11 p.m. at a five-star hotel, holding that the mere possibility of criminal activities cannot justify curbing hours permitted under the Foreign Liquor…",
+     "link": "https://www.verdictum.in/kerala-high-court/2026-ker-85771-mahadevan-v-state-of-kerala-1625593",
+     "source": "Verdictum",
+     "date": "2026-11-12T08:50:46+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Madras High Court Asks State To Respond To Bail Plea Of Former Minister Anbil Mahesh In Corruption Case",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-anbil-mahesh-bail-plea-state-asked-to-respond-558211",
+     "source": "LiveLaw",
+     "date": "2026-11-12T08:30:40+00:00",
+     "category": "Criminal"
+    },
+    {
      "title": "Photographing King Cobra In Forest Doesn't Establish Illegal Capture: Karnataka High Court Quashes Case Against Snake Rescuer Gowri Shankar",
      "excerpt": "",
      "link": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-quashes-snake-rescuer-dr-pgowri-shankar-accused-exploiting-king-cobra-commercial-gains-558194",
      "source": "LiveLaw",
      "date": "2026-11-12T06:45:06+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Accused Cannot Claim Default Bail By Treating Police Report As Incomplete For Want Of CCTV Or Call Records: Madras High Court",
-     "excerpt": "A timely police report disclosing sufficient evidence or reasonable suspicion need not contain every item that may emerge from further investigation.",
-     "link": "https://www.verdictum.in/madras-high-court/m-alex-v-union-of-india-police-investigation-report-cognizance-magistrate-1625582",
-     "source": "Verdictum",
-     "date": "2026-11-12T06:30:50+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "RTI| Right to Seek Information In Public Recruitment Process Can’t Depend Upon Information Seeker First Establishing Alleged Irregularity: Punjab & Haryana High Court",
-     "excerpt": "The Punjab and Haryana High Court was considering an appeal filed under Articles 226 and 227 of the Constitution seeking quashing of the order passed by the Chief Information Commissioner.",
-     "link": "https://www.verdictum.in/punjab-and-haryana-high-court/sunder-lal-v-state-of-haryana-2026phhc197042-rti-act-information-public-recruitment-process-1625579",
-     "source": "Verdictum",
-     "date": "2026-11-12T06:00:22+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Calcutta High Court Declines Interim Protection To Abhishek Banerjee's PA Sumit Roy In Criminal Cases; Lists Plea Next Monday",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/calcutta-high-court/calcutta-high-court-declines-interim-protection-to-abhishek-banerjees-pa-sumit-roy-in-criminal-cases-lists-plea-next-monday-558201",
-     "source": "LiveLaw",
-     "date": "2026-11-12T06:00:12+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Mercedes crash: Kerala High Court asks State to respond to plea by victim's kin to cancel accused teen's bail",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/mercedes-crash-kerala-high-court-asks-state-to-respond-to-plea-by-victims-kin-to-cancel-accused-teens-bail",
-     "source": "Bar & Bench",
-     "date": "2026-11-12T05:51:17+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Mercedes Benz Crash: Kerala High Court Issues Notice On Plea Challenging Grant Of Bail To Minor",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-benz-crash-minor-bail-cancellation-558199",
-     "source": "LiveLaw",
-     "date": "2026-11-12T05:31:09+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Reference To Cash Loan Being Advanced In ₹2,000 Notes Before Their Introduction Not By Itself Sufficient To Rebut Presumption U/S 139 NI Act : Karnataka High Court",
-     "excerpt": "The Court upheld the accused’s conviction after finding that the mistaken reference to the currency denomination was insufficient by itself to displace the statutory presumptions, particularly when his security-cheque…",
-     "link": "https://www.verdictum.in/karnataka-high-court/k-venkataswamy-v-chikka-hanumanthappa-2026khc60959-negotiable-instruments-1625578",
-     "source": "Verdictum",
-     "date": "2026-11-12T05:30:56+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "JJ Act | Telangana High Court Quashes Cruelty Case Against School Coordinator Accused Of Denying Water, Washroom To Child Over Unpaid Fees",
-     "excerpt": "Designation alone insufficient to attract Section 75 of JJ Act, prosecution must establish that Coordinator had actual control over child, Court said.",
-     "link": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-quashes-cruelty-case-jj-act-558172",
-     "source": "LiveLaw",
-     "date": "2026-11-12T05:30:25+00:00",
      "category": "Criminal"
     }
    ]
@@ -241,67 +233,67 @@
    "name": "Other",
    "items": [
     {
-     "title": "घर से सिलाई का काम करने पर भी मुख्य सड़क पर दुकान की जरूरत गलत नहीं, दिल्ली हाईकोर्ट ने बेदखली आदेश बरकरार रखा",
-     "excerpt": "दिल्ली हाईकोर्ट ने कहा है कि मकान मालकिन के अपने घर से सिलाई का काम करने का यह अर्थ नहीं है कि उसे उसी व्यवसाय के लिए मुख्य सड़क पर स्थित व्यावसायिक दुकान की वास्तविक जरूरत नहीं हो सकती। कोर्ट ने किरायेदारों की…",
-     "link": "https://lawtrend.in/delhi-high-court-landlady-tailoring-shop-eviction/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-landlady-tailoring-shop-eviction",
+     "title": "Who Gets Chair In Court? Dignity Of Advocates And Crisis Of Courtroom Chair Protocol",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/articles/advocates-dignity-courtroom-chair-protocol-crisis-558255",
+     "source": "LiveLaw",
+     "date": "2026-11-12T14:41:06+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "From lectern to bench: Why law professors belong in India’s higher judiciary",
+     "excerpt": "",
+     "link": "https://www.barandbench.com/columns/from-lectern-to-bench-why-law-professors-belong-in-indias-higher-judiciary",
+     "source": "Bar & Bench",
+     "date": "2026-11-12T13:23:34+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "फैसले के पन्नों की संख्या न्यायिक तर्क का विकल्प नहीं: इलाहाबाद हाईकोर्ट ने 159 पन्नों का आदेश रद्द किया",
+     "excerpt": "इलाहाबाद हाईकोर्ट ने कहा है कि किसी न्यायिक फैसले की गुणवत्ता उसके पन्नों की संख्या से नहीं, बल्कि उसमें किए गए न्यायिक परीक्षण और दिए गए तर्कों से निर्धारित होती है। कोर्ट ने एक मध्यस्थता विवाद में वाणिज्यिक अदालत का…",
+     "link": "https://lawtrend.in/allahabad-high-court-159-page-order-judicial-reasoning/?utm_source=rss&utm_medium=rss&utm_campaign=allahabad-high-court-159-page-order-judicial-reasoning",
      "source": "LawTrend",
-     "date": "2026-11-12T06:30:22+00:00",
+     "date": "2026-11-12T13:04:28+00:00",
      "category": "Other"
     },
     {
-     "title": "IBA Next Gen Legal Summit to be held in New Delhi on November 27",
+     "title": "Sri Krishna Jubilee Law College, Bihar Is Organising National Moot Court Competition",
      "excerpt": "",
-     "link": "https://www.barandbench.com/news/iba-next-gen-legal-summit-to-be-held-in-new-delhi-on-november-27",
-     "source": "Bar & Bench",
-     "date": "2026-11-12T06:17:01+00:00",
+     "link": "https://www.verdictum.in/law-school-updates/sri-krishna-jubilee-law-college-organising-moot-court-competition-1625620",
+     "source": "Verdictum",
+     "date": "2026-11-12T12:40:49+00:00",
      "category": "Other"
     },
     {
-     "title": "Prompt, proofread, publish: A practitioners' guide to using AI for legal drafting and content",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/law-firms/view-point/prompt-proofread-publish-a-practitioners-guide-to-using-ai-for-legal-drafting-and-content",
-     "source": "Bar & Bench",
-     "date": "2026-11-12T06:01:18+00:00",
+     "title": "निषेधाज्ञा आवेदन पर 30 दिन में फैसला देना अनिवार्य नहीं, समयसीमा लागू कराने का कानूनी अधिकार भी नहीं: आंध्र प्रदेश हाईकोर्ट",
+     "excerpt": "आंध्र प्रदेश हाईकोर्ट ने स्पष्ट किया है कि सिविल प्रक्रिया संहिता (CPC) के आदेश 39 नियम 3A के तहत निषेधाज्ञा आवेदन के निस्तारण के लिए निर्धारित 30 दिनों की समयसीमा अनिवार्य नहीं है। इस प्रावधान के आधार पर किसी पक्षकार…",
+     "link": "https://lawtrend.in/andhra-pradesh-high-court-order-39-rule-3a-30-day-limit/?utm_source=rss&utm_medium=rss&utm_campaign=andhra-pradesh-high-court-order-39-rule-3a-30-day-limit",
+     "source": "LawTrend",
+     "date": "2026-11-12T10:14:06+00:00",
      "category": "Other"
     },
     {
-     "title": "Pinac advises TagMango on joint venture with ClickFunnels to launch Backstage Pass",
+     "title": "One Nation, Two Flags? Constitutional Legitimacy Of State Flags In India",
      "excerpt": "",
-     "link": "https://www.barandbench.com/law-firms/dealstreet/pinac-advises-tagmango-on-joint-venture-with-clickfunnels-to-launch-backstage-pass",
-     "source": "Bar & Bench",
-     "date": "2026-11-12T05:36:44+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Shardul Amarchand Mangaldas, Trilegal act on The Pant Project ₹109 crore Series B fundraise",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/law-firms/dealstreet/shardul-amarchand-mangaldas-trilegal-act-on-the-pant-project-109-crore-series-b-fundraise",
-     "source": "Bar & Bench",
-     "date": "2026-11-12T05:35:23+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Consultant Vacancy At Deloitte Touche Tohmatsu India LLP",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/job-updates/consultant-vacancy-at-deloitte-touche-tohmatsu-india-llp-558190",
+     "link": "https://www.livelaw.in/articles/one-nation-two-flags-constitutional-legitimacy-state-flags-india-558134",
      "source": "LiveLaw",
-     "date": "2026-11-12T05:04:44+00:00",
+     "date": "2026-11-12T09:30:25+00:00",
      "category": "Other"
     },
     {
-     "title": "Associate Vacancy At Legal/General Counsel's Office, Ernst & Young",
+     "title": "NCLAT rejects appeals by Yes Bank co-founder Rana Kapoor’s wife against insolvency of four firms",
      "excerpt": "",
-     "link": "https://www.livelaw.in/job-updates/associate-vacancy-at-legalgeneral-counsels-office-ernst-young-558189",
-     "source": "LiveLaw",
-     "date": "2026-11-12T05:03:48+00:00",
+     "link": "https://www.barandbench.com/news/litigation/nclat-rejects-appeals-by-yes-bank-co-founder-rana-kapoors-wife-against-insolvency-of-four-firms",
+     "source": "Bar & Bench",
+     "date": "2026-11-12T08:42:56+00:00",
      "category": "Other"
     },
     {
-     "title": "Grievance Redressal Expert Vacancy At Ayushman Bharat Digital Mission",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/job-updates/grievance-redressal-expert-vacancy-at-ayushman-bharat-digital-mission-558186",
-     "source": "LiveLaw",
-     "date": "2026-11-12T04:58:03+00:00",
+     "title": "काउंसलिंग से गैरहाज़िर रही पत्नी ने 15 महीने बाद मांगी एकतरफा आदेश की वापसी: दिल्ली हाईकोर्ट ने पत्नी के खिलाफ एकतरफा कार्यवाही वापस लेने से किया इनकार",
+     "excerpt": "दिल्ली हाईकोर्ट ने कहा है कि केवल वैवाहिक विवाद होने के आधार पर फैमिली कोर्ट के उस निष्कर्ष को नहीं बदला जा सकता, जिसमें रिकॉर्ड की जांच के बाद समन की तामील वैध पाई गई हो। कोर्ट ने पति के पक्ष में एकतरफा कार्यवाही शुरू…",
+     "link": "https://lawtrend.in/delhi-high-court-wife-ex-parte-order-recall-dismissed/?utm_source=rss&utm_medium=rss&utm_campaign=delhi-high-court-wife-ex-parte-order-recall-dismissed",
+     "source": "LawTrend",
+     "date": "2026-11-12T08:14:39+00:00",
      "category": "Other"
     }
    ]
@@ -316,7 +308,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 23
+   "items": 3
   },
   {
    "source": "Verdictum",
