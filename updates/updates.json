@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T15:09:40.012056+00:00",
+ "generated": "2026-11-14T20:46:21.980202+00:00",
  "categories": [
   {
    "name": "Supreme Court",
@@ -307,8 +307,8 @@
   },
   {
    "source": "Bar & Bench",
-   "ok": true,
-   "items": 3
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "source": "Verdictum",
