@@ -1,9 +1,17 @@
 {
- "generated": "2026-11-21T21:41:41.915384+00:00",
+ "generated": "2026-11-22T07:00:29.613487+00:00",
  "categories": [
   {
    "name": "Supreme Court",
    "items": [
+    {
+     "title": "Police Can't Justify Restraint Of Journalists By Merely Avoiding Words 'Arrest' Or 'Detention': Media Organisation Tells Supreme Court",
+     "excerpt": "Journalism cannot be made conditional on accreditation, the Network of Women in Media stated in the rejoinder.",
+     "link": "https://www.livelaw.in/top-stories/police-cant-justify-restraint-of-journalists-by-merely-avoiding-words-arrest-or-detention-media-organisation-tells-supreme-court-559479",
+     "source": "LiveLaw",
+     "date": "2026-11-22T03:09:26+00:00",
+     "category": "Supreme Court"
+    },
     {
      "title": "Removal Of Encroachments Must Be Undertaken In Accordance With Control of National Highways (Land and Traffic) Act: Supreme Court Issues Directions",
      "excerpt": "The Supreme Court was considering the suo motu proceedings arising out of the concerns relating to road safety on National Highways.",
@@ -59,14 +67,6 @@
      "source": "Verdictum",
      "date": "2026-11-21T11:10:42+00:00",
      "category": "Supreme Court"
-    },
-    {
-     "title": "No Student Should Be Penalised Based On AI Detection Tool Alone: CJI Surya Kant",
-     "excerpt": "The CJI pointed out that many AI-detection tools often returned false results.",
-     "link": "https://www.livelaw.in/top-stories/no-student-should-be-penalised-based-on-ai-detection-tool-alone-cji-surya-kant-559448",
-     "source": "LiveLaw",
-     "date": "2026-11-21T10:35:40+00:00",
-     "category": "Supreme Court"
     }
    ]
   },
@@ -74,67 +74,67 @@
    "name": "High Courts",
    "items": [
     {
+     "title": "Child's Welfare Paramount In Custody Disputes, Not Parents' 'Battle Of Wits And Egos': Delhi High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/childs-welfare-paramount-in-custody-disputes-not-parents-battle-of-wits-and-egos-delhi-high-court-559483",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:45:34+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Delhi High Court Declines Death Penalty For Cop Convicted Of Double Murder, Says Breach Of Public Trust Alone Can't Justify Capital Punishment",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-declines-death-penalty-for-cop-convicted-of-double-murder-says-breach-of-public-trust-alone-cant-justify-capital-punishment-559482",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:16:00+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Centre's Order Cancelling Author Amrit Wilson's OCI Card Lacks Details Of 'Anti-India Activities': Delhi High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/centres-order-cancelling-author-amrit-wilsons-oci-card-lacks-details-of-anti-india-activities-delhi-high-court-559485",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:01:53+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Daughter-In-Law Can't Be Expected To Vacate Senior Citizen's House Without Assured Alternate Accommodation: Delhi High Court",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/daughter-in-law-cant-be-expected-to-vacate-senior-citizens-house-without-assured-alternate-accommodation-delhi-high-court-559481",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:01:45+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Child's Right To Know Biological Father Can Outweigh Father's Right To Privacy: Delhi High Court Upholds DNA Test Order",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/childs-right-to-know-biological-father-can-outweigh-fathers-right-to-privacy-delhi-high-court-upholds-dna-test-order-559395",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:01:36+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Allahabad High Court Bans Litigants From Carrying Mobile Phones Into Courtroom",
+     "excerpt": "The Allahabad High Court was considering a matter where a person was found recording the Court proceedings from his mobile phone without permission.",
+     "link": "https://www.verdictum.in/allahabad-high-court/kuldeep-batra-v-state-of-up-courtroom-mobile-litigant-recording-1626186",
+     "source": "Verdictum",
+     "date": "2026-11-22T06:00:01+00:00",
+     "category": "High Courts"
+    },
+    {
+     "title": "Prior Sanction U/S 197 CrPC Required For PMLA Prosecution: Bombay High Court Quashes ED Complaint Against IRS Officer",
+     "excerpt": "The Court held that the absence of prior sanction was an incurable jurisdictional defect because the allegations concerned wealth allegedly amassed while the officer was discharging his official duties.",
+     "link": "https://www.verdictum.in/bombay-high-court/sachin-sawant-v-union-of-india-and-another-2026bhc-as45633-pmla-section-197-crpc-1626192",
+     "source": "Verdictum",
+     "date": "2026-11-22T04:30:36+00:00",
+     "category": "High Courts"
+    },
+    {
      "title": "LiveLaw High Courts Daily Highlights: November 21, 2026",
      "excerpt": "",
      "link": "https://www.livelaw.in/high-court/all-high-courts/high-courts-daily-highlights-november-21-2026-559475",
      "source": "LiveLaw",
      "date": "2026-11-21T17:04:02+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Marriage Officer Can't Reject Notice Of Intended Marriage Merely Because One Party Obtained Customary Divorce: Gujarat High Court",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/gujarat-high-court/gujarat-high-court-interfaith-couple-customary-divorce-notice-of-marriage-559380",
-     "source": "LiveLaw",
-     "date": "2026-11-21T16:15:15+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "28 Years On, Gujarat High Court Upholds Acquittal In POCSO Case; Cites Faulty TIP",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/gujarat-high-court/gujarat-high-court-pocso-acquittal-tip-559381",
-     "source": "LiveLaw",
-     "date": "2026-11-21T16:14:54+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "BHU Hospital Medicine Purchase Irregularities: Allahabad High Court Seeks Enquiry Reports, Says VC's Inaction Can't Be Ignored",
-     "excerpt": "HC orders BHU to preserve all medicine procurement records, including tender documents, stock registers, bills and payment vouchers.",
-     "link": "https://www.livelaw.in/high-court/allahabad-high-court/bhu-hospital-medicine-purchase-irregularities-allahabad-high-court-559471",
-     "source": "LiveLaw",
-     "date": "2026-11-21T14:32:42+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "\"Still Born\" UP Gangsters Act Continues To Be Operative: Allahabad High Court Quashes FIR In Saharanpur Liquor Case",
-     "excerpt": "The Allahabad High Court was considering the petition whereby the accused sought quashing of an FIR registered under the Uttar Pradesh Gangsters and Anti Social Activities (Prevention) Act, 1986.",
-     "link": "https://www.verdictum.in/allahabad-high-court/pranay-aneja-v-state-of-up-2026ahc236800-db-gangchart-fir-saharanpur-liquor-case-1626188",
-     "source": "Verdictum",
-     "date": "2026-11-21T13:50:55+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "'Delay In Trial Cannot By Itself Override Stringent Bail Conditions Under PMLA': Jharkhand High Court Refuses Bail In 750-Cr Fraud Case",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/jharkhand-high-court/jharkhand-high-court-refuses-bail-fake-itc-fraud-case-559400",
-     "source": "LiveLaw",
-     "date": "2026-11-21T13:26:16+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Commissioners Must Call For At Least One Independent Witness To Prove Employer-Employee Relationship Between Close Relatives: Bombay High Court",
-     "excerpt": "The Court set aside an award of Rs 6,55,840 to the widow and minor child of a tractor driver who died in an accident, and remitted the claim for fresh evidence on whether he was employed by his father, the tractor owner.",
-     "link": "https://www.verdictum.in/bombay-high-court/hdfc-ergo-general-insurance-co-ltd-v-pallavi-arjun-dalvi-2026bhc-aug55238-employer-employee-relationship-between-close-relatives-1626187",
-     "source": "Verdictum",
-     "date": "2026-11-21T13:10:37+00:00",
-     "category": "High Courts"
-    },
-    {
-     "title": "Multiple Correct Answers To MCQ Warrant Exclusion Or Equal Marks: Allahabad High Court Directs Revision Of UPTET Results",
-     "excerpt": "The High Court clarified that candidates already declared successful will remain unaffected.",
-     "link": "https://www.verdictum.in/allahabad-high-court/up-education-service-selection-commissioner-2026ahc235265-db-multiple-correct-answers-1626193",
-     "source": "Verdictum",
-     "date": "2026-11-21T12:30:21+00:00",
      "category": "High Courts"
     }
    ]
@@ -148,14 +148,6 @@
      "link": "https://lawtrend.in/centre-issues-revised-disability-assessment-guidelines-sets-new-criteria-for-dwarfism-autism-and-other-conditions/?utm_source=rss&utm_medium=rss&utm_campaign=centre-issues-revised-disability-assessment-guidelines-sets-new-criteria-for-dwarfism-autism-and-other-conditions",
      "source": "LawTrend",
      "date": "2026-11-21T08:18:58+00:00",
-     "category": "Legislation"
-    },
-    {
-     "title": "2019 Amendment Enhancing Minimum Punishment Under POCSO Act Not Retrospective: Tripura High Court",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/tripura-high-court/tripura-high-court-corrects-trial-court-retrospective-application-2019pocso-amendment-559386",
-     "source": "LiveLaw",
-     "date": "2026-11-21T04:16:13+00:00",
      "category": "Legislation"
     },
     {
@@ -184,6 +176,22 @@
   {
    "name": "Criminal",
    "items": [
+    {
+     "title": "Delhi High Court Declines Death Penalty For Cop Convicted Of Double Murder, Says Breach Of Public Trust Alone Can't Justify Capital Punishment",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-declines-death-penalty-for-cop-convicted-of-double-murder-says-breach-of-public-trust-alone-cant-justify-capital-punishment-559482",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:16:00+00:00",
+     "category": "Criminal"
+    },
+    {
+     "title": "Prior Sanction U/S 197 CrPC Required For PMLA Prosecution: Bombay High Court Quashes ED Complaint Against IRS Officer",
+     "excerpt": "The Court held that the absence of prior sanction was an incurable jurisdictional defect because the allegations concerned wealth allegedly amassed while the officer was discharging his official duties.",
+     "link": "https://www.verdictum.in/bombay-high-court/sachin-sawant-v-union-of-india-and-another-2026bhc-as45633-pmla-section-197-crpc-1626192",
+     "source": "Verdictum",
+     "date": "2026-11-22T04:30:36+00:00",
+     "category": "Criminal"
+    },
     {
      "title": "Magistrate Must Give Reasons When Ordering FIR Despite Police Report Of 'No Offence': Supreme Court",
      "excerpt": "",
@@ -231,22 +239,6 @@
      "source": "LawTrend",
      "date": "2026-11-21T05:56:11+00:00",
      "category": "Criminal"
-    },
-    {
-     "title": "'Stringent Bail Conditions Under PMLA Cannot Override Constitutional Right To Personal Liberty': Jharkhand High Court",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/jharkhand-high-court/jharkhand-high-court-grants-bail-two-accused-prayag-group-money-laundering-case-559215",
-     "source": "LiveLaw",
-     "date": "2026-11-21T05:00:19+00:00",
-     "category": "Criminal"
-    },
-    {
-     "title": "Orissa High Court Quashes Cognizance Against Chanda Kochhar Over Alleged Illegal Deductions From Customer's ICICI Bank Account",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/high-court/orissa-high-court/orissa-high-court-quashes-cognizance-against-chanda-kochhar-alleged-illegal-deductions-559393",
-     "source": "LiveLaw",
-     "date": "2026-11-21T04:30:45+00:00",
-     "category": "Criminal"
     }
    ]
   },
@@ -254,67 +246,67 @@
    "name": "Other",
    "items": [
     {
+     "title": "Haryana State Legal Services Authority Conducts Statewide Special Lok Adalat For Negotiable Instruments Act Cases",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/news-updates/haryana-state-legal-services-authority-special-lok-adalat-negotiable-instruments-act-cases-559491",
+     "source": "LiveLaw",
+     "date": "2026-11-22T07:00:02+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "Senior Associate (Legal) Vacancy At National Highways And Infrastructure Development Corporation Limited (NHIDCL)",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/job-updates/senior-associate-legal-vacancy-at-national-highways-and-infrastructure-development-corporation-limited-nhidcl-559490",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:24:29+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "Assistant Law Officer Vacancy At Chhattisgarh State Power Distribution Company Limited",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/job-updates/assistant-law-officer-vacancy-at-chhattisgarh-state-power-distribution-company-limited-559489",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:23:38+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "District Judge Vacancy At State Of Orissa",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/job-updates/district-judge-vacancy-at-state-of-orissa-559488",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:22:51+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "IPR Chair Professor Vacancy At National Law University, Delhi",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/job-updates/ipr-chair-professor-vacancy-at-national-law-university-delhi-559487",
+     "source": "LiveLaw",
+     "date": "2026-11-22T06:22:01+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "SME IPOs Under Scrutiny: Merchant Banker Accountability And SEBI'S Reforms",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/articles/sme-ipo-under-scrutiny-merchant-banker-accountability-sebi-reforms-559374",
+     "source": "LiveLaw",
+     "date": "2026-11-22T04:31:19+00:00",
+     "category": "Other"
+    },
+    {
+     "title": "Independence Of Judiciary Is Non-Negotiable: Justice KV Viswanathan",
+     "excerpt": "",
+     "link": "https://www.livelaw.in/top-stories/independence-of-judiciary-is-non-negotiable-justice-kv-viswanathan-559480",
+     "source": "LiveLaw",
+     "date": "2026-11-22T03:27:46+00:00",
+     "category": "Other"
+    },
+    {
      "title": "Young Professional (Legal) Vacancy At Directorate General of Foreign Trade",
      "excerpt": "",
      "link": "https://www.verdictum.in/job-updates/directorate-general-of-foreign-trade-1626191",
      "source": "Verdictum",
      "date": "2026-11-21T16:00:15+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "India's Disclosure Standards For Influencer Advertising Remain Dangerously Vague",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/lawschool/articles/india-disclosure-standards-influencer-advertising-remain-dangerously-vague-559373",
-     "source": "LiveLaw",
-     "date": "2026-11-21T14:30:53+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "\"Behind Every Case, There Is A Human Story\": Justice Shivraj V. Patil At Release Of Hindi Edition Of His Autobiography",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/events/behind-every-case-there-is-a-human-story-justice-shivraj-v-patil-at-release-of-hindi-edition-of-his-autobiography-559435",
-     "source": "LiveLaw",
-     "date": "2026-11-21T09:47:51+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "पिता के पास नाबालिग बच्चे की कस्टडी को सामान्य तौर पर अवैध नहीं माना जा सकता: आंध्र प्रदेश हाईकोर्ट",
-     "excerpt": "आंध्र प्रदेश हाईकोर्ट ने कहा है कि पिता के पास नाबालिग बच्चे की कस्टडी को सामान्य तौर पर अवैध नहीं माना जा सकता, क्योंकि कानून के तहत पिता बच्चे का प्राकृतिक अभिभावक होता है। कोर्ट ने 10 वर्षीय बेटे को पिता की कस्टडी से…",
-     "link": "https://lawtrend.in/minor-child-custody-father-not-illegal-andhra-pradesh-high-court/?utm_source=rss&utm_medium=rss&utm_campaign=minor-child-custody-father-not-illegal-andhra-pradesh-high-court",
-     "source": "LawTrend",
-     "date": "2026-11-21T09:42:37+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Digital Arrests And Wrong Bank: Why Liability Must Follow Mule Account",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/lawschool/articles/digital-arrests-wrong-bank-liability-must-follow-mule-account-559372",
-     "source": "LiveLaw",
-     "date": "2026-11-21T09:30:18+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Women Lawyers Must Have 1/3rd Representation On Government Panels : Justice BV Nagarathna",
-     "excerpt": "\"Every girl child must have the right to be born and the right to pursue her choices, of course, in accordance with law. It is then only that Articles 14 and 15 would be more meaningful and have relevance for women of…",
-     "link": "https://www.livelaw.in/top-stories/women-lawyers-must-have-13rd-representation-in-government-panels-justice-bv-nagarathna-559410",
-     "source": "LiveLaw",
-     "date": "2026-11-21T08:48:34+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "LiveLaw Daily | Abhishek Banerjee's Remarks | Can Voter ID Prove Citizenship? | Bike Taxi Ban & More",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/podcast/judiciary-prep-clat-cauvery-water-dispute-voter-id-epic-supreme-court-citizenship-legal-news-news-india-559425",
-     "source": "LiveLaw",
-     "date": "2026-11-21T08:32:00+00:00",
-     "category": "Other"
-    },
-    {
-     "title": "Freedom on Trial | Book Launch by Akash Vajpai | Justice K.V. Viswanathan & Others",
-     "excerpt": "",
-     "link": "https://www.livelaw.in/videos/freedomontrial-booklaunch-akashvajpai-supremecourtofindia-delhihighcourt-indianjudiciary-legalhistory-indianfreedomstruggle-livelaw-559424",
-     "source": "LiveLaw",
-     "date": "2026-11-21T08:29:34+00:00",
      "category": "Other"
     }
    ]
@@ -334,7 +326,7 @@
   {
    "source": "Verdictum",
    "ok": true,
-   "items": 42
+   "items": 40
   },
   {
    "source": "LawTrend",
@@ -344,7 +336,7 @@
   {
    "source": "Indian Kanoon (Supreme Court judgments)",
    "ok": true,
-   "items": 0
+   "items": 3
   },
   {
    "source": "PIB (Government of India)",
