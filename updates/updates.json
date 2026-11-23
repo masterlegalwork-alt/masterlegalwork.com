@@ -1,17 +1,9 @@
 {
- "generated": "2026-11-22T16:21:08.285268+00:00",
+ "generated": "2026-11-23T00:56:14.181146+00:00",
  "categories": [
   {
    "name": "Supreme Court",
    "items": [
-    {
-     "title": "Supreme Court granted final relief at interim stage in Deepam row: Tamil Nadu in review petition",
-     "excerpt": "",
-     "link": "https://www.barandbench.com/news/litigation/supreme-court-granted-final-relief-at-interim-stage-in-deepam-row-tamil-nadu-in-review-petition",
-     "source": "Bar & Bench",
-     "date": "2026-11-22T12:37:20+00:00",
-     "category": "Supreme Court"
-    },
     {
      "title": "Treadmills, Exercise Bikes & Fitness Equipment Are ‘Sports Goods’ Exempt Under UP VAT Notification: Supreme Court",
      "excerpt": "Dismissing the State’s appeals, the Court held that juxtaposing Commodity Code Entry No. 60 with the exemption entry classifies the equipment as sports goods.",
@@ -66,6 +58,14 @@
      "link": "https://www.verdictum.in/supreme-court/in-re-phalodi-accident-v-national-highways-authority-of-india-2026-insc-1243-encroachments-private-land-1626190",
      "source": "Verdictum",
      "date": "2026-11-21T15:10:55+00:00",
+     "category": "Supreme Court"
+    },
+    {
+     "title": "Can A Mutawalli Whose Term Has Expired Continue Waqf Proceedings By Claiming To Be Sajjadanashin? Supreme Court To Examine",
+     "excerpt": "The Court asked whether, without a Waqfnama, Waqf deed or custom pleaded before the Tribunal, the petitioner could represent the Dargah after accepting appointment as Mutawalli.",
+     "link": "https://www.verdictum.in/supreme-court/mutawalli-whose-term-expired-continue-waqf-proceedings-claiming-sajjadanashin-1626189",
+     "source": "Verdictum",
+     "date": "2026-11-21T14:30:15+00:00",
      "category": "Supreme Court"
     }
    ]
@@ -329,7 +329,7 @@
   {
    "source": "Bar & Bench",
    "ok": true,
-   "items": 1
+   "items": 0
   },
   {
    "source": "Verdictum",
